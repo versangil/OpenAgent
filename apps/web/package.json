@@ -1,0 +1,8 @@
+{
+  "name": "@openagent/web",
+  "version": "0.0.0",
+  "private": true,
+  "description": "OpenAgent web app (skeleton - MT-010)",
+  "license": "MIT",
+  "type": "module"
+}

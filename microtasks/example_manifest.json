@@ -1,0 +1,20 @@
+{
+  "schema": "microtask/v1",
+  "id": "MT-EX-001",
+  "title": "Add input validation to the repo indexer",
+  "goal": "Ensure the indexer rejects non-existent workspace paths with a clear, actionable error message instead of throwing an unhandled exception.",
+  "inputs": {
+    "workspace": ".",
+    "target_files": ["packages/agent-harness/src/indexer.js"]
+  },
+  "allowed_actions": ["read", "write", "run_tests"],
+  "timeout_seconds": 600,
+  "approval_policy": "require_approval_for_side_effects",
+  "mcp_calls": [],
+  "security": {
+    "network": "deny",
+    "filesystem": "workspace_only",
+    "max_memory_mb": 512,
+    "max_cpu_percent": 50
+  }
+}

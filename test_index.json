@@ -1,0 +1,6610 @@
+{
+  "schema": "openagent-index/v1",
+  "workspace": "X:\\AiTools\\AgentIDE\\OpenAgent",
+  "created_at": "2026-07-15T11:54:08.109Z",
+  "stats": {
+    "file_count": 33,
+    "indexed_count": 33,
+    "token_count": 1508,
+    "skipped_binary": 0,
+    "skipped_large": 0
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "size": 157,
+      "language": "unknown",
+      "lines": 16,
+      "sha256": "57336e8e6742a60bedbb1fd4e8d52c8871a28b7931d97b7f1af9e9d1a5f555a2",
+      "indexed": true
+    },
+    {
+      "path": "AGENTS.md",
+      "size": 2116,
+      "language": "markdown",
+      "lines": 56,
+      "sha256": "190fea1b178750a3dfc84a92049e7a07267633513255a6122934e04c8cf400d9",
+      "indexed": true
+    },
+    {
+      "path": "apps/desktop/package.json",
+      "size": 189,
+      "language": "json",
+      "lines": 9,
+      "sha256": "5836ba660461779ab7eb88e4ccf8ec2572119c041570b8461b39ea2dbdfb8aaa",
+      "indexed": true
+    },
+    {
+      "path": "apps/desktop/README.md",
+      "size": 304,
+      "language": "markdown",
+      "lines": 8,
+      "sha256": "ca2ee411d8cc531edc4881d9665b582cf08b263231b9f94cdc7814929f6b889b",
+      "indexed": true
+    },
+    {
+      "path": "apps/web/package.json",
+      "size": 170,
+      "language": "json",
+      "lines": 9,
+      "sha256": "9d8098717c14f8ac23d9b218e31c45bb16961b24a59549307fefcce410681c4b",
+      "indexed": true
+    },
+    {
+      "path": "apps/web/README.md",
+      "size": 129,
+      "language": "markdown",
+      "lines": 4,
+      "sha256": "377f664d5bdc5f021e7163d7d44f2d79bf71a652e5cf1fcce84bab635f39fc28",
+      "indexed": true
+    },
+    {
+      "path": "ci/lint.js",
+      "size": 2077,
+      "language": "javascript",
+      "lines": 62,
+      "sha256": "e649238530b5d6ed3d8c44b7ac69d7da319d629ec19ce40a2696a8d53f2386fa",
+      "indexed": true
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "size": 1339,
+      "language": "markdown",
+      "lines": 18,
+      "sha256": "c601980d977c922d478658c0b3dc9c1587d6d45e368c47d5000b3265703952c6",
+      "indexed": true
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "size": 1378,
+      "language": "markdown",
+      "lines": 37,
+      "sha256": "8dd1383e061cd24d74bf11109dc343af172a62ec7ec36b961c2d7d1ffd042d9f",
+      "indexed": true
+    },
+    {
+      "path": "docs/architecture.md",
+      "size": 4143,
+      "language": "markdown",
+      "lines": 86,
+      "sha256": "540c1bd7165fdeec012a558db189e5a5847e754c00c3257391354d58b79c197f",
+      "indexed": true
+    },
+    {
+      "path": "docs/backlog.md",
+      "size": 2058,
+      "language": "markdown",
+      "lines": 43,
+      "sha256": "b9a0012b35b636823b527a63abbf34efa024095fdf799e5c5b77e0aaeeb0cac2",
+      "indexed": true
+    },
+    {
+      "path": "docs/openagent_masterplan.json",
+      "size": 16198,
+      "language": "json",
+      "lines": 336,
+      "sha256": "2914b46c1c4a19b7e76a6c89a0210fc195e361b3a49e474ac752d4133df68644",
+      "indexed": true
+    },
+    {
+      "path": "infra/README.md",
+      "size": 192,
+      "language": "markdown",
+      "lines": 6,
+      "sha256": "edb77d0ed9fd5e471af816a5aa80b6326f327b5b2e4539e5d51da836e9b0637a",
+      "indexed": true
+    },
+    {
+      "path": "LICENSE",
+      "size": 1079,
+      "language": "unknown",
+      "lines": 22,
+      "sha256": "b8e719629686267de7a32390a6bf4acc4f56689bb22ef0f8c695b12556495e37",
+      "indexed": true
+    },
+    {
+      "path": "microtasks/example_manifest.json",
+      "size": 650,
+      "language": "json",
+      "lines": 21,
+      "sha256": "3b6e6a5b2994358a0d22b22fb50f5012013ef09c57507824dde7fc8450e3f2d8",
+      "indexed": true
+    },
+    {
+      "path": "package.json",
+      "size": 714,
+      "language": "json",
+      "lines": 26,
+      "sha256": "0a3e0b017a0ed4dfdbbd6b96e0c435473a756b2a76e508f1bd2226b2b8e47dcc",
+      "indexed": true
+    },
+    {
+      "path": "packages/adapters/package.json",
+      "size": 301,
+      "language": "json",
+      "lines": 13,
+      "sha256": "03accd5b91eb5438711d4ab092b005f1abd0c756663ea2f050ed1c1556f97d1f",
+      "indexed": true
+    },
+    {
+      "path": "packages/adapters/src/adapter.js",
+      "size": 2506,
+      "language": "javascript",
+      "lines": 82,
+      "sha256": "b6e0aace7095bf6c9deae1e435152620bfdf51983d0eef53f5074c52e289cabd",
+      "indexed": true
+    },
+    {
+      "path": "packages/adapters/src/index.js",
+      "size": 932,
+      "language": "javascript",
+      "lines": 32,
+      "sha256": "27311d3b7187e7a97e711ca6e5be27b578a56ee44460f0b54672b91980be9177",
+      "indexed": true
+    },
+    {
+      "path": "packages/adapters/src/mock.js",
+      "size": 1667,
+      "language": "javascript",
+      "lines": 47,
+      "sha256": "1f57465d1dab39d7b8c2a6e615e226cbeb331ed68a1733e0ee7accd1429d1582",
+      "indexed": true
+    },
+    {
+      "path": "packages/adapters/src/providers.js",
+      "size": 940,
+      "language": "javascript",
+      "lines": 32,
+      "sha256": "5e182bc9900c1bebf2d444da9300d8d0810b2e1532c0914e0c136e67e9330ecd",
+      "indexed": true
+    },
+    {
+      "path": "packages/agent-harness/package.json",
+      "size": 463,
+      "language": "json",
+      "lines": 19,
+      "sha256": "9c997e5800aad1e1ae0dcc3d223fecf26917796e8e8eff5ffb35189e2955a150",
+      "indexed": true
+    },
+    {
+      "path": "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "size": 3161,
+      "language": "json",
+      "lines": 90,
+      "sha256": "578b244f7f4e45dbf41b3bf52dfe1231c31bbd2a499f0eb5edf66b2e54465e7a",
+      "indexed": true
+    },
+    {
+      "path": "packages/agent-harness/src/index.js",
+      "size": 199,
+      "language": "javascript",
+      "lines": 4,
+      "sha256": "ba169c324a06b168a1cce81e63e87ffa8dc88764f3cbcd888d61b78deda542b0",
+      "indexed": true
+    },
+    {
+      "path": "packages/agent-harness/src/indexer.js",
+      "size": 5819,
+      "language": "javascript",
+      "lines": 176,
+      "sha256": "c350050ca2380929595ee244fc48dcfe60325fa0c26e08432b8a526d5e3a2be6",
+      "indexed": true
+    },
+    {
+      "path": "packages/agent-harness/src/manifest.js",
+      "size": 6564,
+      "language": "javascript",
+      "lines": 164,
+      "sha256": "5dee37ae5592811836c239d1e7e196b4d079924b05b60dff34d291ee1758b81d",
+      "indexed": true
+    },
+    {
+      "path": "packages/agent-harness/src/planner.js",
+      "size": 4505,
+      "language": "javascript",
+      "lines": 119,
+      "sha256": "0e266e2eb02f2e6ec5e91b4f916e1a3f7d54ddb1d8c531e2a8a80666f932ced0",
+      "indexed": true
+    },
+    {
+      "path": "packages/agent-harness/test/indexer.test.js",
+      "size": 3460,
+      "language": "javascript",
+      "lines": 93,
+      "sha256": "16a5f9db5403f7619856482fe01a5adf7c2e10080683c5a6d7bef0c16df6d9bd",
+      "indexed": true
+    },
+    {
+      "path": "packages/agent-harness/test/manifest.test.js",
+      "size": 4173,
+      "language": "javascript",
+      "lines": 119,
+      "sha256": "926d637f58d57511e200d97bffb24892f6ebc82edc875ab3d63e9ea0ff00ff11",
+      "indexed": true
+    },
+    {
+      "path": "packages/cli/package.json",
+      "size": 311,
+      "language": "json",
+      "lines": 15,
+      "sha256": "8a647daaf28d22b489b5d246e9f8a9ff420a29c0c9f0401c0f2ef20badff249d",
+      "indexed": true
+    },
+    {
+      "path": "packages/cli/src/cli.js",
+      "size": 5821,
+      "language": "javascript",
+      "lines": 161,
+      "sha256": "57ed42c594205d44465a5b0f8fe26a6d35c8749818700350644ad9b9d658b916",
+      "indexed": true
+    },
+    {
+      "path": "README.md",
+      "size": 2951,
+      "language": "markdown",
+      "lines": 69,
+      "sha256": "be7b77ce830447d4bde83b80ecce3f0b03b651abcd02ed113b481d1b3edbba7c",
+      "indexed": true
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 1498,
+      "language": "markdown",
+      "lines": 34,
+      "sha256": "d0c06ff4153fd23ebbd518bc41af0bd9ff7980216532d6be00829a9962150876",
+      "indexed": true
+    }
+  ],
+  "token_index": {
+    "_request": [
+      "packages/adapters/src/adapter.js"
+    ],
+    "above": [
+      "LICENSE"
+    ],
+    "abstraction": [
+      "docs/openagent_masterplan.json"
+    ],
+    "abusive": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "acceptance": [
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json",
+      "packages/adapters/src/adapter.js"
+    ],
+    "acceptance_criteria": [
+      "docs/openagent_masterplan.json"
+    ],
+    "accepting": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "accepts": [
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "access": [
+      "SECURITY.md",
+      "ci/lint.js",
+      "docs/openagent_masterplan.json"
+    ],
+    "accessibility": [
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "accessibility_report": [
+      "docs/openagent_masterplan.json"
+    ],
+    "accessibility_target": [
+      "docs/openagent_masterplan.json"
+    ],
+    "accomplish": [
+      "packages/agent-harness/schemas/microtask_schema_v1.json"
+    ],
+    "achieve": [
+      "docs/openagent_masterplan.json"
+    ],
+    "acknowledgment": [
+      "SECURITY.md"
+    ],
+    "across": [
+      "docs/openagent_masterplan.json"
+    ],
+    "action": [
+      "LICENSE",
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json",
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/cli/src/cli.js"
+    ],
+    "action_whitelist": [
+      "docs/openagent_masterplan.json"
+    ],
+    "actionable": [
+      "microtasks/example_manifest.json"
+    ],
+    "actions": [
+      "SECURITY.md",
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json",
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "active": [
+      "docs/openagent_masterplan.json"
+    ],
+    "adapted": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "adapter": [
+      "AGENTS.md",
+      "CONTRIBUTING.md",
+      "README.md",
+      "docs/architecture.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json",
+      "packages/adapters/package.json",
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/index.js",
+      "packages/adapters/src/mock.js",
+      "packages/adapters/src/providers.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/cli/src/cli.js"
+    ],
+    "adapter_names": [
+      "packages/adapters/src/index.js",
+      "packages/cli/src/cli.js"
+    ],
+    "adapter_sdk": [
+      "docs/openagent_masterplan.json"
+    ],
+    "adapters": [
+      "AGENTS.md",
+      "CONTRIBUTING.md",
+      "README.md",
+      "docs/architecture.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json",
+      "package.json",
+      "packages/adapters/package.json",
+      "packages/adapters/src/adapter.js",
+      "packages/cli/src/cli.js"
+    ],
+    "add": [
+      "AGENTS.md",
+      "docs/openagent_masterplan.json",
+      "microtasks/example_manifest.json",
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "added": [
+      "CONTRIBUTING.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "additionalproperties": [
+      "packages/agent-harness/schemas/microtask_schema_v1.json"
+    ],
+    "adoption": [
+      "docs/openagent_masterplan.json"
+    ],
+    "against": [
+      "README.md"
+    ],
+    "age": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "agent": [
+      "AGENTS.md",
+      "CONTRIBUTING.md",
+      "README.md",
+      "SECURITY.md",
+      "apps/desktop/README.md",
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json",
+      "microtasks/example_manifest.json",
+      "package.json",
+      "packages/agent-harness/package.json",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/planner.js",
+      "packages/cli/src/cli.js"
+    ],
+    "agent_harness": [
+      "docs/openagent_masterplan.json"
+    ],
+    "agentic": [
+      "README.md",
+      "docs/openagent_masterplan.json",
+      "package.json"
+    ],
+    "agents": [
+      "AGENTS.md",
+      "CONTRIBUTING.md",
+      "README.md",
+      "SECURITY.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "agents_md_updated_if_applicable": [
+      "packages/agent-harness/src/planner.js"
+    ],
+    "agnostic": [
+      "README.md",
+      "docs/openagent_masterplan.json",
+      "package.json",
+      "packages/adapters/src/providers.js"
+    ],
+    "akia": [
+      "ci/lint.js"
+    ],
+    "all": [
+      "AGENTS.md",
+      "CODE_OF_CONDUCT.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "README.md",
+      "apps/desktop/README.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "allow": [
+      "docs/architecture.md",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "allowed": [
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json",
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "allowed_actions": [
+      "AGENTS.md",
+      "docs/architecture.md",
+      "microtasks/example_manifest.json",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/index.js",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "allowedmatch": [
+      "packages/adapters/src/mock.js"
+    ],
+    "allowlist": [
+      "SECURITY.md",
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "alone": [
+      "packages/agent-harness/src/manifest.js"
+    ],
+    "alpha": [
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "already": [
+      "packages/adapters/src/providers.js"
+    ],
+    "also": [
+      "docs/architecture.md"
+    ],
+    "always": [
+      "SECURITY.md",
+      "docs/architecture.md",
+      "packages/adapters/src/mock.js"
+    ],
+    "analysis": [
+      "docs/openagent_masterplan.json"
+    ],
+    "ant": [
+      "ci/lint.js"
+    ],
+    "anthropic": [
+      "README.md",
+      "ci/lint.js",
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json",
+      "packages/adapters/package.json",
+      "packages/adapters/src/index.js",
+      "packages/adapters/src/providers.js",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "anthropic_adapter": [
+      "docs/openagent_masterplan.json"
+    ],
+    "anthropic_api_key": [
+      "README.md",
+      "packages/adapters/src/providers.js"
+    ],
+    "anthropic_claude_adapter": [
+      "docs/openagent_masterplan.json"
+    ],
+    "anthropicadapter": [
+      "packages/adapters/src/index.js",
+      "packages/adapters/src/providers.js"
+    ],
+    "any": [
+      "CODE_OF_CONDUCT.md",
+      "LICENSE",
+      "README.md",
+      "docs/architecture.md"
+    ],
+    "anything": [
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "api": [
+      "CONTRIBUTING.md",
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json",
+      "packages/adapters/src/adapter.js",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "api_and_adapter_contracts": [
+      "docs/openagent_masterplan.json"
+    ],
+    "apis": [
+      "AGENTS.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "app": [
+      "README.md",
+      "apps/web/README.md",
+      "apps/web/package.json",
+      "docs/openagent_masterplan.json"
+    ],
+    "appearance": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "applicable": [
+      "CONTRIBUTING.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "application": [
+      "packages/cli/src/cli.js"
+    ],
+    "applied": [
+      "docs/openagent_masterplan.json"
+    ],
+    "applies": [
+      "packages/agent-harness/src/planner.js"
+    ],
+    "approval": [
+      "AGENTS.md",
+      "README.md",
+      "SECURITY.md",
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/planner.js",
+      "packages/cli/src/cli.js"
+    ],
+    "approval_policies": [
+      "packages/agent-harness/src/manifest.js"
+    ],
+    "approval_policy": [
+      "AGENTS.md",
+      "microtasks/example_manifest.json",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "approvals": [
+      "SECURITY.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "approving": [
+      "CONTRIBUTING.md"
+    ],
+    "apps": [
+      "README.md",
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json",
+      "package.json"
+    ],
+    "architecture": [
+      "README.md",
+      "docs/architecture.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "architecture_diagrams": [
+      "docs/openagent_masterplan.json"
+    ],
+    "are": [
+      "AGENTS.md",
+      "CODE_OF_CONDUCT.md",
+      "README.md",
+      "SECURITY.md",
+      "docs/openagent_masterplan.json",
+      "packages/adapters/src/providers.js",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "arg": [
+      "packages/cli/src/cli.js"
+    ],
+    "argv": [
+      "packages/cli/src/cli.js"
+    ],
+    "arising": [
+      "LICENSE"
+    ],
+    "array": [
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/manifest.js"
+    ],
+    "artifact": [
+      "docs/openagent_masterplan.json",
+      "infra/README.md",
+      "packages/cli/src/cli.js"
+    ],
+    "artifact_policy": [
+      "docs/openagent_masterplan.json"
+    ],
+    "artifact_storage": [
+      "docs/openagent_masterplan.json"
+    ],
+    "artifacts": [
+      "README.md",
+      "SECURITY.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "assert": [
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/test/indexer.test.js",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "assessment": [
+      "SECURITY.md"
+    ],
+    "assign": [
+      "docs/openagent_masterplan.json"
+    ],
+    "associated": [
+      "LICENSE"
+    ],
+    "ast": [
+      "docs/openagent_masterplan.json"
+    ],
+    "async": [
+      "ci/lint.js",
+      "docs/architecture.md",
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/cli/src/cli.js"
+    ],
+    "attach": [
+      "docs/openagent_masterplan.json"
+    ],
+    "attacks": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "audit": [
+      "README.md",
+      "SECURITY.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "audit_and_logging": [
+      "docs/openagent_masterplan.json"
+    ],
+    "audit_logs": [
+      "docs/openagent_masterplan.json"
+    ],
+    "auditability": [
+      "docs/openagent_masterplan.json"
+    ],
+    "auditable": [
+      "README.md",
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "audits": [
+      "docs/openagent_masterplan.json"
+    ],
+    "auth_service": [
+      "docs/openagent_masterplan.json"
+    ],
+    "authors": [
+      "LICENSE"
+    ],
+    "auto": [
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "automate": [
+      "README.md"
+    ],
+    "automated": [
+      "docs/openagent_masterplan.json"
+    ],
+    "automation": [
+      "docs/architecture.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "autonomous": [
+      "docs/openagent_masterplan.json"
+    ],
+    "available": [
+      "apps/desktop/README.md",
+      "packages/adapters/src/index.js",
+      "packages/adapters/src/mock.js"
+    ],
+    "await": [
+      "packages/agent-harness/src/planner.js",
+      "packages/cli/src/cli.js"
+    ],
+    "aws": [
+      "ci/lint.js"
+    ],
+    "backed": [
+      "docs/backlog.md",
+      "packages/adapters/src/adapter.js"
+    ],
+    "backends": [
+      "docs/openagent_masterplan.json"
+    ],
+    "backlog": [
+      "CONTRIBUTING.md",
+      "README.md",
+      "SECURITY.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json",
+      "infra/README.md"
+    ],
+    "bad": [
+      "packages/agent-harness/src/planner.js",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "balance": [
+      "ci/lint.js"
+    ],
+    "base": [
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/providers.js"
+    ],
+    "bash": [
+      "CONTRIBUTING.md",
+      "README.md"
+    ],
+    "before": [
+      "AGENTS.md",
+      "SECURITY.md",
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "begin": [
+      "ci/lint.js"
+    ],
+    "behavior": [
+      "CODE_OF_CONDUCT.md",
+      "CONTRIBUTING.md",
+      "packages/adapters/src/mock.js"
+    ],
+    "being": [
+      "CODE_OF_CONDUCT.md",
+      "packages/adapters/src/mock.js"
+    ],
+    "below": [
+      "CONTRIBUTING.md"
+    ],
+    "best": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "beta": [
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "beyond": [
+      "packages/agent-harness/src/indexer.js",
+      "packages/cli/src/cli.js"
+    ],
+    "billing": [
+      "README.md",
+      "SECURITY.md"
+    ],
+    "bin": [
+      "ci/lint.js",
+      "packages/cli/package.json",
+      "packages/cli/src/cli.js"
+    ],
+    "binaries": [
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "binary_extensions": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "block": [
+      "CONTRIBUTING.md",
+      "SECURITY.md"
+    ],
+    "blocked": [
+      "packages/cli/src/cli.js"
+    ],
+    "board": [
+      "docs/openagent_masterplan.json"
+    ],
+    "body": [
+      "CODE_OF_CONDUCT.md",
+      "docs/architecture.md",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "boolean": [
+      "packages/adapters/src/adapter.js",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "both": [
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "braces": [
+      "ci/lint.js"
+    ],
+    "bracket": [
+      "ci/lint.js"
+    ],
+    "branch": [
+      "CONTRIBUTING.md",
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "branches": [
+      "AGENTS.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "bridge": [
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "buffer": [
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "bug": [
+      "docs/openagent_masterplan.json"
+    ],
+    "bug_management": [
+      "docs/openagent_masterplan.json"
+    ],
+    "bugs": [
+      "CONTRIBUTING.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "build": [
+      ".gitignore",
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "builder": [
+      "docs/openagent_masterplan.json"
+    ],
+    "built": [
+      "docs/openagent_masterplan.json"
+    ],
+    "bundled": [
+      "README.md"
+    ],
+    "but": [
+      "LICENSE"
+    ],
+    "byo": [
+      "docs/openagent_masterplan.json"
+    ],
+    "cadence": [
+      "docs/openagent_masterplan.json"
+    ],
+    "calculate_total": [
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "calculatetotal": [
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "call": [
+      "AGENTS.md",
+      "packages/agent-harness/src/manifest.js"
+    ],
+    "calls": [
+      "CONTRIBUTING.md",
+      "README.md",
+      "SECURITY.md",
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/schemas/microtask_schema_v1.json"
+    ],
+    "can": [
+      "docs/openagent_masterplan.json",
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/src/manifest.js"
+    ],
+    "candidate": [
+      "docs/openagent_masterplan.json"
+    ],
+    "canonical": [
+      "docs/openagent_masterplan.json"
+    ],
+    "canonical_repo": [
+      "docs/openagent_masterplan.json"
+    ],
+    "capabilities": [
+      "SECURITY.md"
+    ],
+    "caps": [
+      "docs/openagent_masterplan.json"
+    ],
+    "case": [
+      "packages/cli/src/cli.js"
+    ],
+    "catch": [
+      "ci/lint.js",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/manifest.js",
+      "packages/cli/src/cli.js"
+    ],
+    "cd_pipeline": [
+      "docs/openagent_masterplan.json"
+    ],
+    "cdn": [
+      "docs/openagent_masterplan.json"
+    ],
+    "chain": [
+      "docs/architecture.md"
+    ],
+    "change": [
+      "AGENTS.md",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "changelog": [
+      "docs/openagent_masterplan.json"
+    ],
+    "changes": [
+      "CONTRIBUTING.md",
+      "README.md",
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json",
+      "packages/adapters/src/adapter.js",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "channels": [
+      "docs/openagent_masterplan.json"
+    ],
+    "characteristics": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "characters": [
+      "packages/agent-harness/src/manifest.js"
+    ],
+    "charge": [
+      "LICENSE"
+    ],
+    "check": [
+      "ci/lint.js"
+    ],
+    "checklist": [
+      "CONTRIBUTING.md",
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "checks": [
+      "ci/lint.js",
+      "docs/openagent_masterplan.json"
+    ],
+    "chore": [
+      "AGENTS.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "chosen": [
+      "docs/openagent_masterplan.json"
+    ],
+    "ci_cd": [
+      "docs/openagent_masterplan.json"
+    ],
+    "ci_pipeline": [
+      "docs/openagent_masterplan.json"
+    ],
+    "ci_templates": [
+      "docs/openagent_masterplan.json"
+    ],
+    "cjs": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "claim": [
+      "LICENSE"
+    ],
+    "class": [
+      "docs/architecture.md",
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/mock.js",
+      "packages/adapters/src/providers.js",
+      "packages/cli/src/cli.js"
+    ],
+    "claude": [
+      "README.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "clear": [
+      "AGENTS.md",
+      "microtasks/example_manifest.json"
+    ],
+    "cli": [
+      "AGENTS.md",
+      "README.md",
+      "apps/desktop/README.md",
+      "docs/architecture.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json",
+      "package.json",
+      "packages/agent-harness/src/planner.js",
+      "packages/cli/package.json",
+      "packages/cli/src/cli.js"
+    ],
+    "cli_docs": [
+      "docs/openagent_masterplan.json"
+    ],
+    "client": [
+      "packages/adapters/src/adapter.js"
+    ],
+    "clients": [
+      "docs/architecture.md",
+      "docs/backlog.md",
+      "packages/adapters/src/providers.js"
+    ],
+    "clone": [
+      "docs/openagent_masterplan.json"
+    ],
+    "closed": [
+      "docs/architecture.md",
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/providers.js"
+    ],
+    "closes": [
+      "ci/lint.js"
+    ],
+    "code": [
+      "CODE_OF_CONDUCT.md",
+      "CONTRIBUTING.md",
+      "ci/lint.js",
+      "docs/openagent_masterplan.json"
+    ],
+    "code_of_conduct": [
+      "docs/openagent_masterplan.json"
+    ],
+    "codebase": [
+      "README.md",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "codex": [
+      "README.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "coding": [
+      "AGENTS.md"
+    ],
+    "color": [
+      "docs/openagent_masterplan.json"
+    ],
+    "com": [
+      "docs/openagent_masterplan.json",
+      "package.json",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "come": [
+      "SECURITY.md",
+      "packages/adapters/src/adapter.js"
+    ],
+    "command": [
+      "AGENTS.md",
+      "docs/architecture.md",
+      "packages/cli/src/cli.js"
+    ],
+    "commands": [
+      "packages/cli/src/cli.js"
+    ],
+    "comments": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "commercial": [
+      "docs/openagent_masterplan.json"
+    ],
+    "commit": [
+      "docs/openagent_masterplan.json"
+    ],
+    "commits": [
+      "AGENTS.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "committed": [
+      "SECURITY.md",
+      "ci/lint.js"
+    ],
+    "community": [
+      "CODE_OF_CONDUCT.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "community_launch_plan": [
+      "docs/openagent_masterplan.json"
+    ],
+    "compatible": [
+      "README.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "competition": [
+      "docs/openagent_masterplan.json"
+    ],
+    "complaints": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "complete": [
+      "docs/architecture.md",
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "completed": [
+      "docs/openagent_masterplan.json"
+    ],
+    "completion": [
+      "packages/agent-harness/src/planner.js"
+    ],
+    "completionrequest": [
+      "packages/adapters/src/adapter.js"
+    ],
+    "completionresponse": [
+      "packages/adapters/src/adapter.js"
+    ],
+    "complexity": [
+      "docs/openagent_masterplan.json"
+    ],
+    "compliance": [
+      "docs/openagent_masterplan.json"
+    ],
+    "concrete": [
+      "packages/adapters/src/adapter.js",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "conditions": [
+      "LICENSE"
+    ],
+    "conduct": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "config": [
+      "infra/README.md",
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "configured": [
+      "packages/adapters/src/adapter.js"
+    ],
+    "confirmation": [
+      "SECURITY.md"
+    ],
+    "conforming": [
+      "AGENTS.md"
+    ],
+    "connection": [
+      "LICENSE"
+    ],
+    "connector": [
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "connector_sdk_github": [
+      "docs/openagent_masterplan.json"
+    ],
+    "connector_sdk_slack": [
+      "docs/openagent_masterplan.json"
+    ],
+    "connectors": [
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "console": [
+      "ci/lint.js",
+      "packages/cli/src/cli.js"
+    ],
+    "constant": [
+      "packages/adapters/src/mock.js"
+    ],
+    "constrained": [
+      "packages/agent-harness/src/planner.js"
+    ],
+    "constrains": [
+      "packages/agent-harness/src/planner.js"
+    ],
+    "constraints": [
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/schemas/microtask_schema_v1.json"
+    ],
+    "construction": [
+      "packages/adapters/src/adapter.js"
+    ],
+    "constructive": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "constructor": [
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/providers.js"
+    ],
+    "consumed": [
+      "docs/openagent_masterplan.json"
+    ],
+    "contain": [
+      "packages/agent-harness/src/manifest.js"
+    ],
+    "containerized": [
+      "docs/openagent_masterplan.json",
+      "infra/README.md"
+    ],
+    "contains": [
+      "ci/lint.js",
+      "packages/agent-harness/src/manifest.js"
+    ],
+    "content": [
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "contents": [
+      "infra/README.md"
+    ],
+    "context": [
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json",
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "context_files": [
+      "packages/agent-harness/src/planner.js"
+    ],
+    "contextfiles": [
+      "packages/agent-harness/src/planner.js"
+    ],
+    "continue": [
+      "ci/lint.js",
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "continuous": [
+      "docs/openagent_masterplan.json"
+    ],
+    "contract": [
+      "AGENTS.md",
+      "LICENSE",
+      "README.md",
+      "docs/architecture.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json",
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/providers.js"
+    ],
+    "contracts": [
+      "docs/architecture.md"
+    ],
+    "contrast": [
+      "docs/openagent_masterplan.json"
+    ],
+    "contributes": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "contributing": [
+      "CONTRIBUTING.md",
+      "README.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "contribution": [
+      "docs/openagent_masterplan.json"
+    ],
+    "contributions": [
+      "docs/openagent_masterplan.json"
+    ],
+    "contributor": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "contributors": [
+      "CODE_OF_CONDUCT.md",
+      "LICENSE"
+    ],
+    "control": [
+      "SECURITY.md",
+      "apps/desktop/README.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "controls": [
+      "SECURITY.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "conventional": [
+      "AGENTS.md"
+    ],
+    "conventions": [
+      "AGENTS.md"
+    ],
+    "converts": [
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "copies": [
+      "LICENSE"
+    ],
+    "copy": [
+      "LICENSE"
+    ],
+    "copyright": [
+      "LICENSE"
+    ],
+    "core": [
+      "AGENTS.md",
+      "CONTRIBUTING.md",
+      "README.md",
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "cost": [
+      "docs/openagent_masterplan.json"
+    ],
+    "count": [
+      "docs/architecture.md",
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "covenant": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "coverage": [
+      ".gitignore",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "cpp": [
+      "README.md",
+      "packages/adapters/src/providers.js"
+    ],
+    "cpu": [
+      "SECURITY.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "create": [
+      "CONTRIBUTING.md",
+      "docs/openagent_masterplan.json",
+      "packages/adapters/src/index.js"
+    ],
+    "create_pr": [
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "createadapter": [
+      "packages/adapters/src/index.js",
+      "packages/cli/src/cli.js"
+    ],
+    "created": [
+      "docs/openagent_masterplan.json"
+    ],
+    "created_at": [
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "createhash": [
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "creation": [
+      "docs/openagent_masterplan.json"
+    ],
+    "credential": [
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/providers.js"
+    ],
+    "credentials": [
+      "AGENTS.md",
+      "CONTRIBUTING.md",
+      "README.md",
+      "SECURITY.md",
+      "docs/architecture.md",
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/mock.js"
+    ],
+    "criteria": [
+      "docs/openagent_masterplan.json"
+    ],
+    "criterion": [
+      "docs/architecture.md",
+      "packages/adapters/src/adapter.js"
+    ],
+    "critical": [
+      "CONTRIBUTING.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "critical_bug_target": [
+      "docs/openagent_masterplan.json"
+    ],
+    "cross": [
+      "README.md",
+      "docs/openagent_masterplan.json",
+      "package.json",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "crypto": [
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "css": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "ctor": [
+      "packages/adapters/src/index.js"
+    ],
+    "current": [
+      "infra/README.md",
+      "packages/adapters/src/mock.js"
+    ],
+    "currently": [
+      "packages/cli/src/cli.js"
+    ],
+    "cycle": [
+      "docs/openagent_masterplan.json"
+    ],
+    "cycle_steps": [
+      "docs/openagent_masterplan.json"
+    ],
+    "cycles": [
+      "docs/openagent_masterplan.json"
+    ],
+    "damages": [
+      "LICENSE"
+    ],
+    "dashscope_api_key": [
+      "packages/adapters/src/providers.js"
+    ],
+    "dast": [
+      "docs/openagent_masterplan.json"
+    ],
+    "data": [
+      "SECURITY.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "date": [
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "days": [
+      "SECURITY.md",
+      "docs/backlog.md"
+    ],
+    "deal": [
+      "LICENSE"
+    ],
+    "dealings": [
+      "LICENSE"
+    ],
+    "decisions": [
+      "README.md",
+      "SECURITY.md",
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "declarative": [
+      "docs/architecture.md",
+      "packages/agent-harness/schemas/microtask_schema_v1.json"
+    ],
+    "declares": [
+      "SECURITY.md",
+      "packages/adapters/src/providers.js"
+    ],
+    "deep": [
+      "docs/openagent_masterplan.json"
+    ],
+    "deepequal": [
+      "packages/agent-harness/test/indexer.test.js",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "def": [
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "defaults": [
+      "packages/adapters/src/index.js"
+    ],
+    "defined": [
+      "README.md"
+    ],
+    "degrades": [
+      "packages/agent-harness/src/planner.js"
+    ],
+    "deletion": [
+      "SECURITY.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "deliver": [
+      "docs/openagent_masterplan.json"
+    ],
+    "deliverables": [
+      "docs/openagent_masterplan.json"
+    ],
+    "delivered": [
+      "docs/backlog.md"
+    ],
+    "demand": [
+      "docs/openagent_masterplan.json"
+    ],
+    "demands": [
+      "docs/architecture.md"
+    ],
+    "demonstrating": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "deny": [
+      "AGENTS.md",
+      "README.md",
+      "SECURITY.md",
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json",
+      "microtasks/example_manifest.json",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "depend": [
+      "packages/adapters/src/adapter.js"
+    ],
+    "dependencies": [
+      "AGENTS.md",
+      "CONTRIBUTING.md",
+      "README.md",
+      "docs/architecture.md"
+    ],
+    "dependency": [
+      "ci/lint.js",
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/src/manifest.js"
+    ],
+    "depends": [
+      "README.md"
+    ],
+    "deploy": [
+      "docs/openagent_masterplan.json"
+    ],
+    "deployment": [
+      "README.md",
+      "infra/README.md"
+    ],
+    "derived": [
+      "docs/architecture.md"
+    ],
+    "derives": [
+      "packages/adapters/src/mock.js"
+    ],
+    "derogatory": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "described": [
+      "AGENTS.md"
+    ],
+    "description": [
+      "CONTRIBUTING.md",
+      "SECURITY.md",
+      "apps/desktop/package.json",
+      "apps/web/package.json",
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json",
+      "package.json",
+      "packages/adapters/package.json",
+      "packages/agent-harness/package.json",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/cli/package.json"
+    ],
+    "design": [
+      "README.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "desktop": [
+      "README.md",
+      "apps/desktop/README.md",
+      "apps/desktop/package.json",
+      "apps/web/README.md",
+      "docs/architecture.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "desktop_packaging": [
+      "docs/openagent_masterplan.json"
+    ],
+    "detail": [
+      "docs/architecture.md",
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/mock.js",
+      "packages/cli/src/cli.js"
+    ],
+    "determinism": [
+      "packages/adapters/src/mock.js"
+    ],
+    "deterministic": [
+      "README.md",
+      "docs/architecture.md",
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "developer": [
+      "docs/openagent_masterplan.json"
+    ],
+    "developer_runbook": [
+      "docs/openagent_masterplan.json"
+    ],
+    "developers": [
+      "README.md"
+    ],
+    "development": [
+      "docs/openagent_masterplan.json",
+      "packages/adapters/src/mock.js"
+    ],
+    "diff": [
+      "AGENTS.md",
+      "apps/desktop/README.md",
+      "docs/architecture.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/src/planner.js",
+      "packages/cli/src/cli.js"
+    ],
+    "differing": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "diffs": [
+      "README.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "digest": [
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "dir": [
+      "ci/lint.js",
+      "packages/agent-harness/src/indexer.js",
+      "packages/cli/src/cli.js"
+    ],
+    "directly": [
+      "packages/agent-harness/src/indexer.js",
+      "packages/cli/src/cli.js"
+    ],
+    "directories": [
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "directory": [
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "dirname": [
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "disability": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "disallowed": [
+      "packages/agent-harness/src/planner.js"
+    ],
+    "discovery": [
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "dist": [
+      ".gitignore",
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "distribute": [
+      "LICENSE"
+    ],
+    "dll": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "docs": [
+      "AGENTS.md",
+      "CONTRIBUTING.md",
+      "README.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json",
+      "infra/README.md"
+    ],
+    "documentation": [
+      "LICENSE"
+    ],
+    "documented": [
+      "CONTRIBUTING.md",
+      "SECURITY.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "does": [
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "don": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "done": [
+      "docs/backlog.md"
+    ],
+    "dot": [
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "draft": [
+      "packages/agent-harness/schemas/microtask_schema_v1.json"
+    ],
+    "drive": [
+      "AGENTS.md"
+    ],
+    "driven": [
+      "docs/openagent_masterplan.json"
+    ],
+    "dry": [
+      "AGENTS.md",
+      "README.md",
+      "docs/backlog.md",
+      "packages/cli/src/cli.js"
+    ],
+    "ds_store": [
+      ".gitignore"
+    ],
+    "duplicate": [
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "duplicates": [
+      "packages/agent-harness/src/manifest.js"
+    ],
+    "duration_weeks": [
+      "docs/openagent_masterplan.json"
+    ],
+    "during": [
+      "docs/openagent_masterplan.json"
+    ],
+    "dylib": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "dynamic": [
+      "ci/lint.js"
+    ],
+    "e2e_ui_tests": [
+      "docs/openagent_masterplan.json"
+    ],
+    "each": [
+      "docs/architecture.md",
+      "packages/adapters/src/providers.js"
+    ],
+    "early": [
+      "docs/backlog.md"
+    ],
+    "echo": [
+      "packages/adapters/src/adapter.js"
+    ],
+    "economic": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "ecosystem": [
+      "docs/openagent_masterplan.json"
+    ],
+    "ecosystems": [
+      "README.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "editing": [
+      "packages/agent-harness/src/planner.js"
+    ],
+    "editor": [
+      "apps/desktop/README.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "edits": [
+      "AGENTS.md",
+      "docs/openagent_masterplan.json",
+      "packages/adapters/src/mock.js"
+    ],
+    "education": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "effect": [
+      "packages/agent-harness/src/manifest.js"
+    ],
+    "effectful": [
+      "docs/architecture.md"
+    ],
+    "effects": [
+      "AGENTS.md",
+      "README.md",
+      "SECURITY.md",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "egress": [
+      "AGENTS.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "electron": [
+      "README.md",
+      "apps/desktop/README.md",
+      "apps/desktop/package.json",
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "electron_app_skeleton": [
+      "docs/openagent_masterplan.json"
+    ],
+    "eligible": [
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "else": [
+      "ci/lint.js",
+      "packages/agent-harness/src/manifest.js",
+      "packages/cli/src/cli.js"
+    ],
+    "email": [
+      "SECURITY.md"
+    ],
+    "emit": [
+      "AGENTS.md",
+      "README.md",
+      "packages/cli/src/cli.js"
+    ],
+    "emits": [
+      "docs/architecture.md"
+    ],
+    "empathy": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "empty": [
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "enable": [
+      "docs/openagent_masterplan.json",
+      "packages/adapters/src/adapter.js"
+    ],
+    "enables": [
+      "SECURITY.md"
+    ],
+    "enabling": [
+      "docs/openagent_masterplan.json"
+    ],
+    "end": [
+      "docs/openagent_masterplan.json"
+    ],
+    "endpoints": [
+      "SECURITY.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "endswith": [
+      "packages/cli/src/cli.js"
+    ],
+    "enforcement": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "enforces": [
+      "docs/architecture.md"
+    ],
+    "engineering": [
+      "docs/openagent_masterplan.json"
+    ],
+    "engines": [
+      "package.json",
+      "packages/adapters/package.json",
+      "packages/agent-harness/package.json",
+      "packages/cli/package.json"
+    ],
+    "ensure": [
+      "docs/openagent_masterplan.json",
+      "microtasks/example_manifest.json"
+    ],
+    "enterprise": [
+      "docs/openagent_masterplan.json"
+    ],
+    "enterprise_policy_engine": [
+      "docs/openagent_masterplan.json"
+    ],
+    "entries": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "entry": [
+      "README.md",
+      "ci/lint.js",
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "enum": [
+      "packages/agent-harness/schemas/microtask_schema_v1.json"
+    ],
+    "enums": [
+      "docs/architecture.md"
+    ],
+    "env": [
+      ".gitignore",
+      "ci/lint.js",
+      "docs/architecture.md",
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/index.js",
+      "packages/adapters/src/providers.js",
+      "packages/cli/src/cli.js"
+    ],
+    "environment": [
+      "AGENTS.md",
+      "CODE_OF_CONDUCT.md",
+      "README.md",
+      "SECURITY.md",
+      "packages/adapters/src/adapter.js"
+    ],
+    "envvar": [
+      "packages/adapters/src/adapter.js"
+    ],
+    "equal": [
+      "packages/agent-harness/test/indexer.test.js",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "equivalent": [
+      "docs/openagent_masterplan.json"
+    ],
+    "err": [
+      "ci/lint.js",
+      "packages/agent-harness/src/manifest.js",
+      "packages/cli/src/cli.js"
+    ],
+    "error": [
+      "AGENTS.md",
+      "ci/lint.js",
+      "microtasks/example_manifest.json",
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/index.js",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/cli/src/cli.js"
+    ],
+    "errors": [
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/test/manifest.test.js",
+      "packages/cli/src/cli.js"
+    ],
+    "escape": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "eslint": [
+      "ci/lint.js"
+    ],
+    "esm": [
+      "ci/lint.js"
+    ],
+    "est": [
+      "docs/backlog.md"
+    ],
+    "established": [
+      "docs/openagent_masterplan.json"
+    ],
+    "estimate_days": [
+      "docs/openagent_masterplan.json"
+    ],
+    "estimates": [
+      "docs/openagent_masterplan.json"
+    ],
+    "ethnicity": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "even": [
+      "packages/agent-harness/src/planner.js"
+    ],
+    "event": [
+      "LICENSE"
+    ],
+    "every": [
+      "AGENTS.md",
+      "CONTRIBUTING.md",
+      "ci/lint.js",
+      "packages/adapters/src/adapter.js",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "everyone": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "evident": [
+      "SECURITY.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "example": [
+      "AGENTS.md",
+      "README.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "example_manifest": [
+      "README.md",
+      "docs/openagent_masterplan.json",
+      "package.json",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "examples": [
+      "CODE_OF_CONDUCT.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "exception": [
+      "microtasks/example_manifest.json"
+    ],
+    "excerpts": [
+      "packages/adapters/src/adapter.js"
+    ],
+    "exe": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "exec": [
+      "docs/backlog.md"
+    ],
+    "execute": [
+      "ci/lint.js",
+      "packages/cli/src/cli.js"
+    ],
+    "execution": [
+      "README.md",
+      "docs/openagent_masterplan.json",
+      "packages/cli/src/cli.js"
+    ],
+    "executor": [
+      "README.md",
+      "docs/architecture.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/schemas/microtask_schema_v1.json"
+    ],
+    "exfiltrate": [
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "exist": [
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "existent": [
+      "AGENTS.md",
+      "microtasks/example_manifest.json"
+    ],
+    "exists": [
+      "packages/adapters/src/adapter.js"
+    ],
+    "existssync": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "exit": [
+      "ci/lint.js"
+    ],
+    "exitcode": [
+      "packages/cli/src/cli.js"
+    ],
+    "expects": [
+      "packages/adapters/src/mock.js"
+    ],
+    "experience": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "explicit": [
+      "AGENTS.md",
+      "CODE_OF_CONDUCT.md",
+      "README.md",
+      "SECURITY.md"
+    ],
+    "explicit_user_approval_for_side_effects": [
+      "docs/openagent_masterplan.json"
+    ],
+    "explicitly": [
+      "docs/openagent_masterplan.json"
+    ],
+    "explorer": [
+      "apps/desktop/README.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "exported": [
+      "CONTRIBUTING.md"
+    ],
+    "exports": [
+      "packages/agent-harness/package.json"
+    ],
+    "express": [
+      "LICENSE",
+      "packages/agent-harness/src/manifest.js"
+    ],
+    "expressible": [
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "expression": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "ext": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "extends": [
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/mock.js",
+      "packages/adapters/src/providers.js",
+      "packages/cli/src/cli.js"
+    ],
+    "extensibility": [
+      "docs/openagent_masterplan.json"
+    ],
+    "external": [
+      "AGENTS.md",
+      "CONTRIBUTING.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "extname": [
+      "ci/lint.js",
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "extractsteps": [
+      "packages/agent-harness/src/planner.js"
+    ],
+    "facing": [
+      "CONTRIBUTING.md"
+    ],
+    "factory": [
+      "packages/adapters/src/index.js"
+    ],
+    "fail": [
+      "docs/architecture.md",
+      "packages/adapters/src/adapter.js",
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "fails": [
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/providers.js"
+    ],
+    "failures": [
+      "ci/lint.js"
+    ],
+    "fairly": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "fallback": [
+      "packages/agent-harness/src/planner.js"
+    ],
+    "feat": [
+      "AGENTS.md",
+      "CONTRIBUTING.md",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "feature": [
+      "CONTRIBUTING.md",
+      "apps/web/README.md",
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "features": [
+      "docs/openagent_masterplan.json"
+    ],
+    "feedback": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "field": [
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "fields": [
+      "docs/architecture.md"
+    ],
+    "figma": [
+      "docs/openagent_masterplan.json"
+    ],
+    "file": [
+      "AGENTS.md",
+      "README.md",
+      "ci/lint.js",
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/test/indexer.test.js",
+      "packages/cli/src/cli.js"
+    ],
+    "file_count": [
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/test/indexer.test.js",
+      "packages/cli/src/cli.js"
+    ],
+    "files": [
+      "AGENTS.md",
+      "LICENSE",
+      "ci/lint.js",
+      "docs/openagent_masterplan.json",
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/agent-harness/test/indexer.test.js",
+      "packages/cli/src/cli.js"
+    ],
+    "filesystem": [
+      "AGENTS.md",
+      "SECURITY.md",
+      "docs/openagent_masterplan.json",
+      "microtasks/example_manifest.json",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "filesystem_policies": [
+      "packages/agent-harness/src/manifest.js"
+    ],
+    "fileurltopath": [
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "filter": [
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "final": [
+      "docs/openagent_masterplan.json",
+      "packages/adapters/src/providers.js"
+    ],
+    "finally": [
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "find": [
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "findings": [
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "first": [
+      "SECURITY.md",
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "fitness": [
+      "LICENSE"
+    ],
+    "fix": [
+      "AGENTS.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "fixed": [
+      "docs/openagent_masterplan.json"
+    ],
+    "fixes": [
+      "SECURITY.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "fixtures": [
+      "CONTRIBUTING.md"
+    ],
+    "flag": [
+      "packages/cli/src/cli.js"
+    ],
+    "flags": [
+      "packages/cli/src/cli.js"
+    ],
+    "flows": [
+      "README.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "focusing": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "folder": [
+      "docs/backlog.md"
+    ],
+    "follow": [
+      "docs/openagent_masterplan.json",
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/providers.js",
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "following": [
+      "LICENSE"
+    ],
+    "follows": [
+      "docs/architecture.md",
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "for_threats": [
+      "docs/openagent_masterplan.json"
+    ],
+    "for_weaknesses": [
+      "docs/openagent_masterplan.json"
+    ],
+    "forbidden": [
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "forbids": [
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "force": [
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "foreach": [
+      "packages/agent-harness/src/manifest.js"
+    ],
+    "fork": [
+      "docs/openagent_masterplan.json"
+    ],
+    "form": [
+      "packages/agent-harness/schemas/microtask_schema_v1.json"
+    ],
+    "format": [
+      "SECURITY.md",
+      "docs/openagent_masterplan.json",
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/manifest.js"
+    ],
+    "found": [
+      "ci/lint.js",
+      "packages/agent-harness/src/manifest.js"
+    ],
+    "framework": [
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "free": [
+      "CODE_OF_CONDUCT.md",
+      "LICENSE",
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/schemas/microtask_schema_v1.json"
+    ],
+    "freeze": [
+      "packages/adapters/src/index.js",
+      "packages/agent-harness/src/manifest.js"
+    ],
+    "frontends": [
+      "docs/openagent_masterplan.json"
+    ],
+    "full": [
+      "README.md",
+      "ci/lint.js",
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "full_docs": [
+      "docs/openagent_masterplan.json"
+    ],
+    "fully": [
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "functionality": [
+      "apps/desktop/README.md"
+    ],
+    "furnished": [
+      "LICENSE"
+    ],
+    "future": [
+      "docs/architecture.md"
+    ],
+    "gate": [
+      "SECURITY.md"
+    ],
+    "gates": [
+      "docs/backlog.md"
+    ],
+    "gateway": [
+      "docs/architecture.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "gender": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "generate": [
+      "docs/openagent_masterplan.json"
+    ],
+    "generated": [
+      "packages/agent-harness/src/planner.js"
+    ],
+    "generation": [
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "generator": [
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "get": [
+      "SECURITY.md",
+      "docs/architecture.md",
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/mock.js",
+      "packages/adapters/src/providers.js",
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "ghp_": [
+      "ci/lint.js"
+    ],
+    "gif": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "git": [
+      "AGENTS.md",
+      "SECURITY.md",
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json",
+      "package.json",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/agent-harness/test/indexer.test.js",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "github": [
+      "ci/lint.js",
+      "docs/openagent_masterplan.json",
+      "package.json",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "gitlab": [
+      "docs/openagent_masterplan.json"
+    ],
+    "giving": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "goal": [
+      "AGENTS.md",
+      "docs/architecture.md",
+      "microtasks/example_manifest.json",
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "goals": [
+      "docs/openagent_masterplan.json"
+    ],
+    "governance": [
+      "docs/openagent_masterplan.json"
+    ],
+    "gracefully": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "granted": [
+      "LICENSE"
+    ],
+    "ground": [
+      "AGENTS.md"
+    ],
+    "growing": [
+      "docs/openagent_masterplan.json"
+    ],
+    "guide": [
+      "docs/openagent_masterplan.json"
+    ],
+    "guidelines": [
+      "docs/openagent_masterplan.json"
+    ],
+    "guides": [
+      "docs/openagent_masterplan.json"
+    ],
+    "hand": [
+      "docs/architecture.md"
+    ],
+    "handling": [
+      "SECURITY.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "harassing": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "harassment": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "hardening": [
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "harness": [
+      "AGENTS.md",
+      "CONTRIBUTING.md",
+      "README.md",
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json",
+      "microtasks/example_manifest.json",
+      "package.json",
+      "packages/adapters/src/adapter.js",
+      "packages/agent-harness/package.json",
+      "packages/cli/src/cli.js"
+    ],
+    "has": [
+      "README.md",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "hash": [
+      "packages/adapters/src/mock.js"
+    ],
+    "hashes": [
+      "README.md",
+      "docs/backlog.md",
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "have": [
+      "docs/openagent_masterplan.json"
+    ],
+    "health": [
+      "docs/architecture.md",
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/mock.js",
+      "packages/cli/src/cli.js"
+    ],
+    "help": [
+      "packages/cli/src/cli.js"
+    ],
+    "helpers": [
+      "README.md"
+    ],
+    "here": [
+      "SECURITY.md",
+      "infra/README.md",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "hereby": [
+      "LICENSE"
+    ],
+    "hex": [
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "high": [
+      "CONTRIBUTING.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "high_bug_target": [
+      "docs/openagent_masterplan.json"
+    ],
+    "hits": [
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "holders": [
+      "LICENSE"
+    ],
+    "holding": [
+      "packages/adapters/src/adapter.js"
+    ],
+    "honest": [
+      "packages/agent-harness/src/planner.js"
+    ],
+    "host": [
+      "SECURITY.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "hosting": [
+      "docs/openagent_masterplan.json"
+    ],
+    "hostname": [
+      "packages/agent-harness/schemas/microtask_schema_v1.json"
+    ],
+    "hostnames": [
+      "packages/agent-harness/src/manifest.js"
+    ],
+    "hotfix": [
+      "docs/openagent_masterplan.json"
+    ],
+    "hours": [
+      "SECURITY.md"
+    ],
+    "how": [
+      "AGENTS.md"
+    ],
+    "html": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "http": [
+      "docs/architecture.md",
+      "docs/backlog.md",
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/providers.js"
+    ],
+    "https": [
+      "CODE_OF_CONDUCT.md",
+      "docs/openagent_masterplan.json",
+      "package.json",
+      "packages/agent-harness/schemas/microtask_schema_v1.json"
+    ],
+    "human": [
+      "AGENTS.md",
+      "README.md",
+      "SECURITY.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "humans": [
+      "AGENTS.md"
+    ],
+    "ico": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "id_pattern": [
+      "packages/agent-harness/src/manifest.js"
+    ],
+    "ide": [
+      "README.md",
+      "docs/openagent_masterplan.json",
+      "package.json"
+    ],
+    "idea": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "identical": [
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "identifier": [
+      "docs/architecture.md",
+      "packages/agent-harness/schemas/microtask_schema_v1.json"
+    ],
+    "identifiers": [
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "identity": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "idx": [
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "image": [
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "imagery": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "immutable": [
+      "README.md",
+      "SECURITY.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "impact": [
+      "SECURITY.md"
+    ],
+    "implement": [
+      "AGENTS.md",
+      "CONTRIBUTING.md",
+      "README.md",
+      "docs/openagent_masterplan.json",
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/mock.js"
+    ],
+    "implementations": [
+      "AGENTS.md"
+    ],
+    "implements": [
+      "packages/adapters/src/adapter.js"
+    ],
+    "implied": [
+      "LICENSE"
+    ],
+    "imported": [
+      "packages/cli/src/cli.js"
+    ],
+    "included": [
+      "LICENSE",
+      "docs/openagent_masterplan.json"
+    ],
+    "includes": [
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "including": [
+      "LICENSE",
+      "docs/openagent_masterplan.json"
+    ],
+    "index": [
+      "AGENTS.md",
+      "README.md",
+      "docs/architecture.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json",
+      "package.json",
+      "packages/adapters/package.json",
+      "packages/adapters/src/adapter.js",
+      "packages/agent-harness/package.json",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/agent-harness/test/indexer.test.js",
+      "packages/cli/package.json",
+      "packages/cli/src/cli.js"
+    ],
+    "index_snapshot": [
+      ".gitignore",
+      "README.md",
+      "docs/openagent_masterplan.json",
+      "packages/cli/src/cli.js"
+    ],
+    "indexed": [
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/test/indexer.test.js",
+      "packages/cli/src/cli.js"
+    ],
+    "indexed_count": [
+      "packages/agent-harness/src/indexer.js",
+      "packages/cli/src/cli.js"
+    ],
+    "indexer": [
+      "AGENTS.md",
+      "README.md",
+      "docs/architecture.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json",
+      "microtasks/example_manifest.json",
+      "packages/agent-harness/package.json",
+      "packages/agent-harness/src/index.js",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/agent-harness/test/indexer.test.js",
+      "packages/cli/src/cli.js"
+    ],
+    "indexer_service": [
+      "docs/openagent_masterplan.json"
+    ],
+    "indexes": [
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "indexing": [
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "indexworkspace": [
+      "packages/agent-harness/src/index.js",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/agent-harness/test/indexer.test.js",
+      "packages/cli/src/cli.js"
+    ],
+    "information": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "infra": [
+      "README.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "infrastructure": [
+      "README.md",
+      "docs/openagent_masterplan.json",
+      "infra/README.md"
+    ],
+    "initial": [
+      "docs/openagent_masterplan.json"
+    ],
+    "initial_branch": [
+      "docs/openagent_masterplan.json"
+    ],
+    "initialize_issue_board": [
+      "docs/openagent_masterplan.json"
+    ],
+    "input": [
+      "AGENTS.md",
+      "microtasks/example_manifest.json",
+      "packages/adapters/src/mock.js"
+    ],
+    "input_tokens": [
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/mock.js"
+    ],
+    "inputs": [
+      "AGENTS.md",
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json",
+      "microtasks/example_manifest.json",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "inspect": [
+      "packages/adapters/src/mock.js"
+    ],
+    "install": [
+      "SECURITY.md",
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/schemas/microtask_schema_v1.json"
+    ],
+    "install_deps": [
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "installers": [
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "instance": [
+      "docs/architecture.md",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "instances": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "instant": [
+      "docs/architecture.md"
+    ],
+    "instead": [
+      "ci/lint.js",
+      "microtasks/example_manifest.json"
+    ],
+    "instruction": [
+      "packages/adapters/src/adapter.js"
+    ],
+    "instructs": [
+      "docs/openagent_masterplan.json"
+    ],
+    "insulting": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "integer": [
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/manifest.js"
+    ],
+    "integration": [
+      "CONTRIBUTING.md",
+      "apps/desktop/README.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "integration_tests": [
+      "docs/openagent_masterplan.json"
+    ],
+    "intended": [
+      "docs/openagent_masterplan.json"
+    ],
+    "intentionally": [
+      "packages/agent-harness/schemas/microtask_schema_v1.json"
+    ],
+    "interface": [
+      "packages/adapters/src/adapter.js"
+    ],
+    "into": [
+      "AGENTS.md",
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/src/planner.js",
+      "packages/cli/src/cli.js"
+    ],
+    "invalid": [
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/test/manifest.test.js",
+      "packages/cli/src/cli.js"
+    ],
+    "invariant": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "invariants": [
+      "docs/architecture.md",
+      "packages/adapters/src/adapter.js",
+      "packages/agent-harness/src/manifest.js"
+    ],
+    "inverted": [
+      "docs/architecture.md",
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "investigated": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "invisible": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "invoke": [
+      "packages/agent-harness/schemas/microtask_schema_v1.json"
+    ],
+    "invoked": [
+      "packages/cli/src/cli.js"
+    ],
+    "isarray": [
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/src/manifest.js"
+    ],
+    "isdirectory": [
+      "ci/lint.js",
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "isfile": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "isinteger": [
+      "packages/agent-harness/src/manifest.js"
+    ],
+    "isolate": [
+      "docs/openagent_masterplan.json"
+    ],
+    "issue": [
+      "CONTRIBUTING.md",
+      "SECURITY.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "issues": [
+      "CONTRIBUTING.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "issymboliclink": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "item": [
+      "CONTRIBUTING.md"
+    ],
+    "items": [
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "iterate": [
+      "docs/openagent_masterplan.json"
+    ],
+    "iterating": [
+      "docs/openagent_masterplan.json"
+    ],
+    "iteration_model": [
+      "docs/openagent_masterplan.json"
+    ],
+    "its": [
+      "packages/adapters/src/providers.js",
+      "packages/cli/src/cli.js"
+    ],
+    "itself": [
+      "ci/lint.js",
+      "packages/adapters/src/adapter.js"
+    ],
+    "java": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "javascript": [
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "join": [
+      "ci/lint.js",
+      "packages/adapters/src/index.js",
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/agent-harness/test/indexer.test.js",
+      "packages/agent-harness/test/manifest.test.js",
+      "packages/cli/src/cli.js"
+    ],
+    "jpeg": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "jpg": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "jsdoc": [
+      "CONTRIBUTING.md"
+    ],
+    "json": [
+      ".gitignore",
+      "AGENTS.md",
+      "README.md",
+      "docs/architecture.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json",
+      "package.json",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/test/manifest.test.js",
+      "packages/cli/src/cli.js"
+    ],
+    "jsx": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "junk": [
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "justified": [
+      "CONTRIBUTING.md"
+    ],
+    "keep": [
+      "AGENTS.md"
+    ],
+    "keeps": [
+      "packages/agent-harness/src/planner.js"
+    ],
+    "key": [
+      "ci/lint.js",
+      "docs/architecture.md",
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/providers.js",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/manifest.js",
+      "packages/cli/src/cli.js"
+    ],
+    "keyboard": [
+      "docs/openagent_masterplan.json"
+    ],
+    "keyedadapter": [
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/index.js",
+      "packages/adapters/src/providers.js"
+    ],
+    "keys": [
+      "ci/lint.js",
+      "docs/architecture.md",
+      "packages/adapters/src/index.js",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/manifest.js"
+    ],
+    "kind": [
+      "CODE_OF_CONDUCT.md",
+      "LICENSE"
+    ],
+    "kindness": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "labels": [
+      "docs/architecture.md",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "land": [
+      "docs/architecture.md",
+      "packages/adapters/src/providers.js",
+      "packages/cli/src/cli.js"
+    ],
+    "lands": [
+      "README.md",
+      "apps/desktop/README.md",
+      "apps/web/README.md",
+      "packages/adapters/src/adapter.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/cli/src/cli.js"
+    ],
+    "language": [
+      "CODE_OF_CONDUCT.md",
+      "docs/architecture.md",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "languages": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "later": [
+      "packages/agent-harness/src/planner.js"
+    ],
+    "latest": [
+      "SECURITY.md"
+    ],
+    "launch": [
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "launch_support_plan": [
+      "docs/openagent_masterplan.json"
+    ],
+    "layer": [
+      "docs/openagent_masterplan.json"
+    ],
+    "layout": [
+      "README.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "leaders": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "least": [
+      "SECURITY.md"
+    ],
+    "least_privilege": [
+      "docs/openagent_masterplan.json"
+    ],
+    "leaves": [
+      "SECURITY.md"
+    ],
+    "legend": [
+      "docs/backlog.md"
+    ],
+    "len": [
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "length": [
+      "ci/lint.js",
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/agent-harness/test/indexer.test.js",
+      "packages/cli/src/cli.js"
+    ],
+    "lets": [
+      "README.md"
+    ],
+    "level": [
+      "CODE_OF_CONDUCT.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "liability": [
+      "LICENSE"
+    ],
+    "liable": [
+      "LICENSE"
+    ],
+    "library": [
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "license": [
+      "LICENSE",
+      "README.md",
+      "apps/desktop/package.json",
+      "apps/web/package.json",
+      "docs/openagent_masterplan.json",
+      "package.json",
+      "packages/adapters/package.json",
+      "packages/agent-harness/package.json",
+      "packages/cli/package.json"
+    ],
+    "lifecycle": [
+      "docs/openagent_masterplan.json"
+    ],
+    "lifecycle_policy": [
+      "docs/openagent_masterplan.json"
+    ],
+    "light": [
+      "ci/lint.js"
+    ],
+    "like": [
+      "ci/lint.js",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "limitation": [
+      "LICENSE"
+    ],
+    "limited": [
+      "LICENSE"
+    ],
+    "line": [
+      "docs/architecture.md",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "lines": [
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "lint": [
+      "CONTRIBUTING.md",
+      "README.md",
+      "ci/lint.js",
+      "docs/openagent_masterplan.json",
+      "package.json",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "linter": [
+      "ci/lint.js"
+    ],
+    "linux": [
+      "docs/openagent_masterplan.json"
+    ],
+    "list": [
+      "packages/agent-harness/src/planner.js",
+      "packages/cli/src/cli.js"
+    ],
+    "listed": [
+      "packages/agent-harness/schemas/microtask_schema_v1.json"
+    ],
+    "live": [
+      "infra/README.md"
+    ],
+    "llama": [
+      "README.md",
+      "packages/adapters/src/providers.js"
+    ],
+    "llamacpp": [
+      "docs/openagent_masterplan.json"
+    ],
+    "llamacpp_adapter": [
+      "docs/openagent_masterplan.json"
+    ],
+    "load": [
+      "docs/openagent_masterplan.json"
+    ],
+    "local": [
+      "README.md",
+      "docs/architecture.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json",
+      "packages/adapters/package.json",
+      "packages/adapters/src/index.js",
+      "packages/adapters/src/mock.js",
+      "packages/adapters/src/providers.js"
+    ],
+    "local_adapter": [
+      "docs/openagent_masterplan.json"
+    ],
+    "local_lsp_integration": [
+      "docs/openagent_masterplan.json"
+    ],
+    "local_ollama_adapter": [
+      "docs/openagent_masterplan.json"
+    ],
+    "localadapter": [
+      "packages/adapters/src/index.js",
+      "packages/adapters/src/providers.js"
+    ],
+    "localecompare": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "locally": [
+      "CONTRIBUTING.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "log": [
+      ".gitignore",
+      "ci/lint.js",
+      "docs/architecture.md",
+      "packages/adapters/src/adapter.js",
+      "packages/cli/src/cli.js"
+    ],
+    "logging": [
+      "SECURITY.md"
+    ],
+    "logic": [
+      "packages/adapters/src/providers.js"
+    ],
+    "logs": [
+      "README.md",
+      "SECURITY.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "look": [
+      "packages/agent-harness/src/planner.js"
+    ],
+    "loop": [
+      "AGENTS.md"
+    ],
+    "lstatsync": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "mac": [
+      "docs/openagent_masterplan.json"
+    ],
+    "machine": [
+      "SECURITY.md"
+    ],
+    "macos": [
+      "docs/openagent_masterplan.json"
+    ],
+    "main": [
+      "CONTRIBUTING.md",
+      "SECURITY.md",
+      "docs/openagent_masterplan.json",
+      "packages/adapters/package.json",
+      "packages/agent-harness/package.json",
+      "packages/cli/src/cli.js"
+    ],
+    "maintain": [
+      "docs/openagent_masterplan.json"
+    ],
+    "maintainers": [
+      "CODE_OF_CONDUCT.md",
+      "SECURITY.md"
+    ],
+    "maintenance": [
+      "docs/openagent_masterplan.json"
+    ],
+    "make": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "makefixture": [
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "malformed": [
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "manifest": [
+      "AGENTS.md",
+      "README.md",
+      "SECURITY.md",
+      "docs/architecture.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/package.json",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/index.js",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/agent-harness/test/manifest.test.js",
+      "packages/cli/src/cli.js"
+    ],
+    "manifests": [
+      "AGENTS.md",
+      "README.md",
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json",
+      "infra/README.md",
+      "packages/agent-harness/test/manifest.test.js",
+      "packages/cli/package.json"
+    ],
+    "manual": [
+      "AGENTS.md"
+    ],
+    "map": [
+      "AGENTS.md",
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "maps": [
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "markdown": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "marketplace": [
+      "README.md",
+      "SECURITY.md",
+      "docs/architecture.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json",
+      "package.json"
+    ],
+    "marketplace_service": [
+      "docs/openagent_masterplan.json"
+    ],
+    "marks": [
+      "docs/architecture.md"
+    ],
+    "master": [
+      "docs/openagent_masterplan.json"
+    ],
+    "masterplan": [
+      "README.md",
+      "docs/architecture.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json",
+      "packages/adapters/src/adapter.js"
+    ],
+    "match": [
+      "ci/lint.js",
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/agent-harness/test/indexer.test.js",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "matchall": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "matches": [
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "matching": [
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "max_cpu_percent": [
+      "microtasks/example_manifest.json",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/manifest.js"
+    ],
+    "max_file_bytes": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "max_memory_mb": [
+      "microtasks/example_manifest.json",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/manifest.js"
+    ],
+    "maxfiles": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "maximum": [
+      "packages/agent-harness/schemas/microtask_schema_v1.json"
+    ],
+    "maxlength": [
+      "packages/agent-harness/schemas/microtask_schema_v1.json"
+    ],
+    "may": [
+      "CODE_OF_CONDUCT.md",
+      "packages/agent-harness/schemas/microtask_schema_v1.json"
+    ],
+    "mcp": [
+      "README.md",
+      "docs/architecture.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json",
+      "package.json",
+      "packages/agent-harness/schemas/microtask_schema_v1.json"
+    ],
+    "mcp_call": [
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "mcp_calls": [
+      "AGENTS.md",
+      "docs/openagent_masterplan.json",
+      "microtasks/example_manifest.json",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "mcp_gateway": [
+      "docs/openagent_masterplan.json"
+    ],
+    "medium": [
+      "docs/backlog.md"
+    ],
+    "medium_bug_target": [
+      "docs/openagent_masterplan.json"
+    ],
+    "members": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "memory": [
+      "SECURITY.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "merchantability": [
+      "LICENSE"
+    ],
+    "merge": [
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "docs/openagent_masterplan.json"
+    ],
+    "message": [
+      "ci/lint.js",
+      "microtasks/example_manifest.json",
+      "packages/agent-harness/src/manifest.js",
+      "packages/cli/src/cli.js"
+    ],
+    "met": [
+      "docs/openagent_masterplan.json"
+    ],
+    "meta": [
+      "packages/agent-harness/test/manifest.test.js",
+      "packages/cli/src/cli.js"
+    ],
+    "metadata": [
+      "README.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "microtask": [
+      "AGENTS.md",
+      "CONTRIBUTING.md",
+      "README.md",
+      "docs/architecture.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json",
+      "microtasks/example_manifest.json",
+      "packages/agent-harness/package.json",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/agent-harness/test/manifest.test.js",
+      "packages/cli/src/cli.js"
+    ],
+    "microtask_backlog": [
+      "docs/openagent_masterplan.json"
+    ],
+    "microtask_id": [
+      "packages/agent-harness/src/planner.js",
+      "packages/cli/src/cli.js"
+    ],
+    "microtask_manifest_schema": [
+      "docs/openagent_masterplan.json"
+    ],
+    "microtask_schema_v1": [
+      "AGENTS.md",
+      "README.md",
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/manifest.js"
+    ],
+    "microtasks": [
+      "README.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json",
+      "package.json",
+      "packages/agent-harness/test/manifest.test.js",
+      "packages/cli/package.json"
+    ],
+    "milestone": [
+      "README.md",
+      "SECURITY.md",
+      "apps/desktop/README.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "milestones": [
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "minimal": [
+      "AGENTS.md",
+      "ci/lint.js",
+      "packages/adapters/src/mock.js"
+    ],
+    "minimum": [
+      "packages/agent-harness/schemas/microtask_schema_v1.json"
+    ],
+    "minitems": [
+      "packages/agent-harness/schemas/microtask_schema_v1.json"
+    ],
+    "minlength": [
+      "packages/agent-harness/schemas/microtask_schema_v1.json"
+    ],
+    "missing": [
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "mit": [
+      "LICENSE",
+      "README.md",
+      "apps/desktop/package.json",
+      "apps/web/package.json",
+      "docs/openagent_masterplan.json",
+      "package.json",
+      "packages/adapters/package.json",
+      "packages/agent-harness/package.json",
+      "packages/cli/package.json"
+    ],
+    "mitigations": [
+      "docs/openagent_masterplan.json"
+    ],
+    "mjs": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "mkdirsync": [
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "mkdtempsync": [
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "mock": [
+      "AGENTS.md",
+      "CONTRIBUTING.md",
+      "README.md",
+      "docs/architecture.md",
+      "docs/backlog.md",
+      "packages/adapters/package.json",
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/index.js",
+      "packages/adapters/src/mock.js",
+      "packages/cli/src/cli.js"
+    ],
+    "mock_adapters_for_ci": [
+      "docs/openagent_masterplan.json"
+    ],
+    "mockadapter": [
+      "docs/architecture.md",
+      "packages/adapters/src/index.js",
+      "packages/adapters/src/mock.js"
+    ],
+    "mocked": [
+      "CONTRIBUTING.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "mocking_policy": [
+      "docs/openagent_masterplan.json"
+    ],
+    "model": [
+      "README.md",
+      "docs/architecture.md",
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "models": [
+      "docs/openagent_masterplan.json",
+      "packages/adapters/src/adapter.js"
+    ],
+    "models_and_adapters": [
+      "docs/openagent_masterplan.json"
+    ],
+    "modify": [
+      "LICENSE"
+    ],
+    "modular": [
+      "docs/openagent_masterplan.json"
+    ],
+    "module": [
+      "apps/desktop/package.json",
+      "apps/web/package.json",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json",
+      "package.json",
+      "packages/adapters/package.json",
+      "packages/agent-harness/package.json",
+      "packages/cli/package.json"
+    ],
+    "modules": [
+      "AGENTS.md",
+      "CONTRIBUTING.md",
+      "docs/architecture.md"
+    ],
+    "modulo": [
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "monorepo": [
+      "docs/architecture.md"
+    ],
+    "mp3": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "mp4": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "msg": [
+      "packages/agent-harness/src/manifest.js"
+    ],
+    "mt_001": [
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "multi": [
+      "README.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "must": [
+      "AGENTS.md",
+      "CONTRIBUTING.md",
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json",
+      "packages/adapters/src/adapter.js",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "mvp": [
+      "README.md",
+      "docs/architecture.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json",
+      "packages/adapters/src/adapter.js"
+    ],
+    "nallowed": [
+      "packages/agent-harness/src/planner.js"
+    ],
+    "name": [
+      "AGENTS.md",
+      "CONTRIBUTING.md",
+      "apps/desktop/package.json",
+      "apps/web/package.json",
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json",
+      "package.json",
+      "packages/adapters/package.json",
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/index.js",
+      "packages/adapters/src/mock.js",
+      "packages/adapters/src/providers.js",
+      "packages/agent-harness/package.json",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/cli/package.json",
+      "packages/cli/src/cli.js"
+    ],
+    "nationality": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "navigation": [
+      "docs/openagent_masterplan.json"
+    ],
+    "need": [
+      "CONTRIBUTING.md"
+    ],
+    "needed": [
+      "docs/openagent_masterplan.json"
+    ],
+    "needs": [
+      "packages/adapters/src/providers.js"
+    ],
+    "network": [
+      "AGENTS.md",
+      "README.md",
+      "SECURITY.md",
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json",
+      "microtasks/example_manifest.json",
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "network_allowlist": [
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "network_policies": [
+      "packages/agent-harness/src/manifest.js"
+    ],
+    "never": [
+      "AGENTS.md",
+      "README.md",
+      "docs/architecture.md",
+      "packages/adapters/src/adapter.js",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "next": [
+      "packages/cli/src/cli.js"
+    ],
+    "no_secrets_in_artifacts": [
+      "docs/openagent_masterplan.json"
+    ],
+    "node": [
+      "AGENTS.md",
+      "CONTRIBUTING.md",
+      "README.md",
+      "ci/lint.js",
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json",
+      "package.json",
+      "packages/adapters/package.json",
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/package.json",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/test/indexer.test.js",
+      "packages/agent-harness/test/manifest.test.js",
+      "packages/cli/package.json",
+      "packages/cli/src/cli.js"
+    ],
+    "node_modules": [
+      ".gitignore",
+      "ci/lint.js",
+      "docs/architecture.md",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "non": [
+      "AGENTS.md",
+      "microtasks/example_manifest.json",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/test/indexer.test.js",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "none": [
+      "infra/README.md"
+    ],
+    "noninfringement": [
+      "LICENSE"
+    ],
+    "nope": [
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "not": [
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "SECURITY.md",
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/providers.js",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/test/indexer.test.js",
+      "packages/agent-harness/test/manifest.test.js",
+      "packages/cli/src/cli.js"
+    ],
+    "notes": [
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "notice": [
+      "LICENSE"
+    ],
+    "now": [
+      "packages/adapters/src/adapter.js"
+    ],
+    "npm": [
+      "AGENTS.md",
+      "CONTRIBUTING.md",
+      "README.md",
+      "SECURITY.md",
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json",
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "number": [
+      "packages/adapters/src/adapter.js",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/manifest.js"
+    ],
+    "object": [
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/index.js",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "obligated": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "obtaining": [
+      "LICENSE"
+    ],
+    "obvious": [
+      "ci/lint.js"
+    ],
+    "ollama": [
+      "README.md",
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json",
+      "packages/adapters/src/providers.js"
+    ],
+    "onboarding": [
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "one": [
+      "CONTRIBUTING.md",
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "only": [
+      "AGENTS.md",
+      "SECURITY.md",
+      "docs/architecture.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json",
+      "packages/adapters/src/adapter.js",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/manifest.js",
+      "packages/cli/src/cli.js"
+    ],
+    "open": [
+      "CONTRIBUTING.md",
+      "README.md",
+      "SECURITY.md",
+      "docs/openagent_masterplan.json",
+      "package.json"
+    ],
+    "openagent": [
+      ".gitignore",
+      "AGENTS.md",
+      "CODE_OF_CONDUCT.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "README.md",
+      "apps/desktop/README.md",
+      "apps/desktop/package.json",
+      "apps/web/README.md",
+      "apps/web/package.json",
+      "docs/architecture.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json",
+      "package.json",
+      "packages/adapters/package.json",
+      "packages/agent-harness/package.json",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/agent-harness/test/indexer.test.js",
+      "packages/cli/package.json",
+      "packages/cli/src/cli.js"
+    ],
+    "openagent_adapter": [
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/index.js",
+      "packages/cli/src/cli.js"
+    ],
+    "openagent_local_url": [
+      "packages/adapters/src/providers.js"
+    ],
+    "openagent_masterplan": [
+      "docs/backlog.md"
+    ],
+    "openai": [
+      "README.md",
+      "ci/lint.js",
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json",
+      "packages/adapters/package.json",
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/index.js",
+      "packages/adapters/src/providers.js"
+    ],
+    "openai_adapter": [
+      "docs/openagent_masterplan.json"
+    ],
+    "openai_api_key": [
+      "README.md",
+      "packages/adapters/src/providers.js"
+    ],
+    "openai_codex_adapter": [
+      "docs/openagent_masterplan.json"
+    ],
+    "openaiadapter": [
+      "packages/adapters/src/index.js",
+      "packages/adapters/src/providers.js"
+    ],
+    "opens": [
+      "ci/lint.js"
+    ],
+    "operating": [
+      "AGENTS.md"
+    ],
+    "opinions": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "opportunities": [
+      "docs/openagent_masterplan.json"
+    ],
+    "opt": [
+      "SECURITY.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "opt_in_telemetry": [
+      "docs/openagent_masterplan.json"
+    ],
+    "optional": [
+      "docs/openagent_masterplan.json"
+    ],
+    "options": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "orchestrate": [
+      "docs/openagent_masterplan.json"
+    ],
+    "order": [
+      "packages/agent-harness/src/planner.js",
+      "packages/cli/src/cli.js"
+    ],
+    "ordered": [
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "org": [
+      "CODE_OF_CONDUCT.md",
+      "packages/agent-harness/schemas/microtask_schema_v1.json"
+    ],
+    "orientation": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "oss": [
+      "docs/openagent_masterplan.json"
+    ],
+    "other": [
+      "LICENSE"
+    ],
+    "others": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "otherwise": [
+      "CODE_OF_CONDUCT.md",
+      "LICENSE"
+    ],
+    "our": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "out": [
+      ".gitignore",
+      "LICENSE",
+      "README.md",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/test/manifest.test.js",
+      "packages/cli/src/cli.js"
+    ],
+    "outcome": [
+      "packages/agent-harness/schemas/microtask_schema_v1.json"
+    ],
+    "outdir": [
+      "packages/cli/src/cli.js"
+    ],
+    "outline": [
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "output": [
+      "docs/architecture.md",
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "output_tokens": [
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/mock.js"
+    ],
+    "outputs": [
+      "docs/openagent_masterplan.json"
+    ],
+    "outside": [
+      "docs/architecture.md",
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "overview": [
+      "docs/architecture.md"
+    ],
+    "own": [
+      "packages/cli/src/cli.js"
+    ],
+    "owner": [
+      "SECURITY.md"
+    ],
+    "owners": [
+      "docs/openagent_masterplan.json"
+    ],
+    "package": [
+      "AGENTS.md",
+      "CONTRIBUTING.md",
+      "docs/architecture.md"
+    ],
+    "packages": [
+      "AGENTS.md",
+      "CONTRIBUTING.md",
+      "README.md",
+      "ci/lint.js",
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json",
+      "microtasks/example_manifest.json",
+      "package.json"
+    ],
+    "packaging": [
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "packaging_scripts": [
+      "docs/openagent_masterplan.json"
+    ],
+    "padend": [
+      "packages/cli/src/cli.js"
+    ],
+    "panel": [
+      "apps/desktop/README.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "param": [
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/index.js",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "parameters": [
+      "packages/agent-harness/schemas/microtask_schema_v1.json"
+    ],
+    "parity": [
+      "apps/web/README.md",
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "parse": [
+      "ci/lint.js",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/cli/src/cli.js"
+    ],
+    "parseargs": [
+      "packages/cli/src/cli.js"
+    ],
+    "parsed": [
+      "packages/agent-harness/src/manifest.js",
+      "packages/cli/src/cli.js"
+    ],
+    "parsemanifest": [
+      "packages/agent-harness/src/index.js",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/test/manifest.test.js",
+      "packages/cli/src/cli.js"
+    ],
+    "parses": [
+      "ci/lint.js"
+    ],
+    "partial": [
+      "packages/cli/src/cli.js"
+    ],
+    "participation": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "particular": [
+      "LICENSE"
+    ],
+    "party": [
+      "docs/openagent_masterplan.json"
+    ],
+    "pass": [
+      "AGENTS.md",
+      "CONTRIBUTING.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "passed": [
+      "docs/openagent_masterplan.json"
+    ],
+    "passing": [
+      "CONTRIBUTING.md",
+      "README.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "pat": [
+      "ci/lint.js"
+    ],
+    "patch": [
+      ".gitignore",
+      "docs/openagent_masterplan.json"
+    ],
+    "patches": [
+      "AGENTS.md"
+    ],
+    "path": [
+      "AGENTS.md",
+      "ci/lint.js",
+      "docs/architecture.md",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/test/indexer.test.js",
+      "packages/agent-harness/test/manifest.test.js",
+      "packages/cli/src/cli.js"
+    ],
+    "paths": [
+      "AGENTS.md",
+      "microtasks/example_manifest.json",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "pattern": [
+      "ci/lint.js",
+      "packages/agent-harness/schemas/microtask_schema_v1.json"
+    ],
+    "pdf": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "peer": [
+      "docs/openagent_masterplan.json"
+    ],
+    "pending": [
+      "docs/backlog.md"
+    ],
+    "penetration": [
+      "docs/openagent_masterplan.json"
+    ],
+    "per": [
+      "docs/architecture.md",
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "perfectly": [
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "perform": [
+      "docs/openagent_masterplan.json"
+    ],
+    "performance_tests": [
+      "docs/openagent_masterplan.json"
+    ],
+    "performs": [
+      "packages/cli/src/cli.js"
+    ],
+    "permission": [
+      "CODE_OF_CONDUCT.md",
+      "LICENSE"
+    ],
+    "permissioned_actions": [
+      "docs/openagent_masterplan.json"
+    ],
+    "permit": [
+      "LICENSE"
+    ],
+    "permitted": [
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/manifest.js"
+    ],
+    "persist": [
+      "docs/architecture.md",
+      "packages/adapters/src/adapter.js"
+    ],
+    "person": [
+      "LICENSE"
+    ],
+    "personal": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "persons": [
+      "LICENSE"
+    ],
+    "phase": [
+      "docs/openagent_masterplan.json"
+    ],
+    "pick": [
+      "CONTRIBUTING.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "pii": [
+      "SECURITY.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "pip": [
+      "SECURITY.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "pipeline": [
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "pipelines": [
+      "docs/openagent_masterplan.json"
+    ],
+    "plan": [
+      ".gitignore",
+      "AGENTS.md",
+      "README.md",
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json",
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/cli/package.json",
+      "packages/cli/src/cli.js"
+    ],
+    "planmicrotask": [
+      "packages/agent-harness/src/index.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/cli/src/cli.js"
+    ],
+    "planned": [
+      "README.md",
+      "SECURITY.md",
+      "apps/desktop/README.md",
+      "packages/cli/src/cli.js"
+    ],
+    "planner": [
+      "AGENTS.md",
+      "README.md",
+      "docs/architecture.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json",
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/mock.js",
+      "packages/adapters/src/providers.js",
+      "packages/agent-harness/package.json",
+      "packages/agent-harness/src/index.js",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/cli/src/cli.js"
+    ],
+    "planning": [
+      "docs/openagent_masterplan.json"
+    ],
+    "planpath": [
+      "packages/cli/src/cli.js"
+    ],
+    "plans": [
+      "docs/openagent_masterplan.json"
+    ],
+    "platform": [
+      "README.md",
+      "docs/openagent_masterplan.json",
+      "package.json"
+    ],
+    "platforms": [
+      "docs/openagent_masterplan.json"
+    ],
+    "playwright": [
+      "docs/openagent_masterplan.json"
+    ],
+    "pledge": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "plus": [
+      "docs/architecture.md",
+      "packages/agent-harness/src/manifest.js",
+      "packages/cli/src/cli.js"
+    ],
+    "png": [
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "pockets": [
+      "docs/openagent_masterplan.json"
+    ],
+    "point": [
+      "README.md"
+    ],
+    "policies": [
+      "docs/openagent_masterplan.json",
+      "infra/README.md"
+    ],
+    "policy": [
+      "README.md",
+      "SECURITY.md",
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "polish": [
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "political": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "portions": [
+      "LICENSE"
+    ],
+    "positionals": [
+      "packages/cli/src/cli.js"
+    ],
+    "positive": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "post": [
+      "docs/openagent_masterplan.json"
+    ],
+    "post_launch_support": [
+      "docs/openagent_masterplan.json"
+    ],
+    "posture": [
+      "docs/openagent_masterplan.json"
+    ],
+    "pr_generator": [
+      "docs/openagent_masterplan.json"
+    ],
+    "pr_metadata": [
+      ".gitignore",
+      "AGENTS.md",
+      "docs/architecture.md",
+      "packages/cli/src/cli.js"
+    ],
+    "pre": [
+      "SECURITY.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "present": [
+      "packages/adapters/src/adapter.js",
+      "packages/agent-harness/src/manifest.js"
+    ],
+    "prevents": [
+      "docs/openagent_masterplan.json"
+    ],
+    "primarytarget": [
+      "packages/agent-harness/src/planner.js"
+    ],
+    "principles": [
+      "SECURITY.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "prioritize": [
+      "docs/openagent_masterplan.json"
+    ],
+    "privacy": [
+      "CODE_OF_CONDUCT.md",
+      "SECURITY.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "private": [
+      "CODE_OF_CONDUCT.md",
+      "apps/desktop/package.json",
+      "apps/web/package.json",
+      "ci/lint.js",
+      "package.json"
+    ],
+    "privilege": [
+      "SECURITY.md"
+    ],
+    "prmetadata": [
+      "packages/agent-harness/src/planner.js",
+      "packages/cli/src/cli.js"
+    ],
+    "problem": [
+      "ci/lint.js"
+    ],
+    "procedures": [
+      "SECURITY.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "process": [
+      "ci/lint.js",
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/index.js",
+      "packages/cli/src/cli.js"
+    ],
+    "process_limits": [
+      "docs/openagent_masterplan.json"
+    ],
+    "processes": [
+      "SECURITY.md"
+    ],
+    "produce": [
+      "AGENTS.md",
+      "README.md",
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "produces": [
+      "docs/openagent_masterplan.json",
+      "packages/adapters/src/mock.js"
+    ],
+    "producing": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "product": [
+      "docs/openagent_masterplan.json"
+    ],
+    "production": [
+      "SECURITY.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "production_ready": [
+      "docs/openagent_masterplan.json"
+    ],
+    "products": [
+      "docs/openagent_masterplan.json"
+    ],
+    "profile": [
+      "SECURITY.md"
+    ],
+    "progress": [
+      "README.md",
+      "docs/backlog.md"
+    ],
+    "project": [
+      "CODE_OF_CONDUCT.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "promise": [
+      "packages/adapters/src/adapter.js",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "promote": [
+      "docs/openagent_masterplan.json"
+    ],
+    "prompt": [
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json",
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "promptly": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "properties": [
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "property": [
+      "packages/adapters/src/adapter.js",
+      "packages/agent-harness/src/manifest.js"
+    ],
+    "proposed": [
+      "packages/agent-harness/src/planner.js"
+    ],
+    "proposes": [
+      "packages/agent-harness/src/planner.js"
+    ],
+    "proposing": [
+      "AGENTS.md",
+      "CONTRIBUTING.md"
+    ],
+    "protect": [
+      "docs/openagent_masterplan.json"
+    ],
+    "protected": [
+      "docs/openagent_masterplan.json"
+    ],
+    "protection": [
+      "docs/openagent_masterplan.json"
+    ],
+    "provided": [
+      "LICENSE"
+    ],
+    "provider": [
+      "AGENTS.md",
+      "README.md",
+      "SECURITY.md",
+      "docs/architecture.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json",
+      "package.json",
+      "packages/adapters/package.json",
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/providers.js",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "providers": [
+      "docs/architecture.md",
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/index.js",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "prpath": [
+      "packages/cli/src/cli.js"
+    ],
+    "prs": [
+      "README.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "pseudo": [
+      "packages/adapters/src/mock.js"
+    ],
+    "public": [
+      "CONTRIBUTING.md",
+      "SECURITY.md"
+    ],
+    "publish": [
+      "AGENTS.md",
+      "LICENSE",
+      "README.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "published": [
+      "docs/openagent_masterplan.json"
+    ],
+    "publishing": [
+      "CODE_OF_CONDUCT.md",
+      "SECURITY.md"
+    ],
+    "purpose": [
+      "AGENTS.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/manifest.js"
+    ],
+    "push": [
+      "AGENTS.md",
+      "README.md",
+      "docs/openagent_masterplan.json",
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/agent-harness/test/manifest.test.js",
+      "packages/cli/src/cli.js"
+    ],
+    "pushed": [
+      "docs/openagent_masterplan.json"
+    ],
+    "pushing": [
+      "SECURITY.md"
+    ],
+    "python": [
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "qa_and_acceptance": [
+      "docs/openagent_masterplan.json"
+    ],
+    "quality": [
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "quality_gates": [
+      "docs/openagent_masterplan.json"
+    ],
+    "query": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "queue": [
+      "docs/openagent_masterplan.json"
+    ],
+    "quick": [
+      "README.md"
+    ],
+    "quotas": [
+      "SECURITY.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "qwen": [
+      "README.md",
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json",
+      "packages/adapters/package.json",
+      "packages/adapters/src/index.js",
+      "packages/adapters/src/providers.js"
+    ],
+    "qwen_adapter": [
+      "docs/openagent_masterplan.json"
+    ],
+    "qwenadapter": [
+      "packages/adapters/src/index.js",
+      "packages/adapters/src/providers.js"
+    ],
+    "race": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "range": [
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "ranked": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "ranks": [
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "rapid": [
+      "docs/openagent_masterplan.json"
+    ],
+    "rationale": [
+      "docs/architecture.md",
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "react": [
+      "README.md",
+      "apps/desktop/README.md",
+      "apps/web/README.md",
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "read": [
+      "AGENTS.md",
+      "README.md",
+      "docs/architecture.md",
+      "microtasks/example_manifest.json",
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "readdirsync": [
+      "ci/lint.js",
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "readfilesync": [
+      "ci/lint.js",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/test/manifest.test.js",
+      "packages/cli/src/cli.js"
+    ],
+    "readlinksync": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "readme": [
+      "CONTRIBUTING.md",
+      "apps/desktop/README.md",
+      "docs/openagent_masterplan.json",
+      "packages/adapters/src/mock.js"
+    ],
+    "ready": [
+      "docs/openagent_masterplan.json",
+      "packages/cli/src/cli.js"
+    ],
+    "real": [
+      "README.md",
+      "docs/architecture.md",
+      "docs/backlog.md",
+      "packages/adapters/src/providers.js"
+    ],
+    "reasonable": [
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "receive": [
+      "SECURITY.md"
+    ],
+    "receives": [
+      "SECURITY.md",
+      "docs/architecture.md",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "record": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "recorded": [
+      "docs/openagent_masterplan.json"
+    ],
+    "recording": [
+      "docs/architecture.md"
+    ],
+    "recursive": [
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "reduce": [
+      "docs/openagent_masterplan.json"
+    ],
+    "refactors": [
+      "AGENTS.md"
+    ],
+    "referenced": [
+      "CONTRIBUTING.md"
+    ],
+    "regardless": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "registry": [
+      "docs/architecture.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json",
+      "packages/adapters/src/index.js"
+    ],
+    "regression_policy": [
+      "docs/openagent_masterplan.json"
+    ],
+    "regressions": [
+      "docs/openagent_masterplan.json",
+      "packages/adapters/src/mock.js"
+    ],
+    "regular": [
+      "docs/openagent_masterplan.json"
+    ],
+    "reject": [
+      "AGENTS.md"
+    ],
+    "rejected": [
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "rejects": [
+      "docs/architecture.md",
+      "microtasks/example_manifest.json",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/test/indexer.test.js",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "relative": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "release": [
+      "SECURITY.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "release_and_post_launch": [
+      "docs/openagent_masterplan.json"
+    ],
+    "release_builds": [
+      "docs/openagent_masterplan.json"
+    ],
+    "release_candidate_build": [
+      "docs/openagent_masterplan.json"
+    ],
+    "release_checks": [
+      "docs/openagent_masterplan.json"
+    ],
+    "release_notes": [
+      "docs/openagent_masterplan.json"
+    ],
+    "releases": [
+      "docs/openagent_masterplan.json"
+    ],
+    "religion": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "relpath": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "remediation": [
+      "SECURITY.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "remediation_commits": [
+      "docs/openagent_masterplan.json"
+    ],
+    "remote": [
+      "docs/openagent_masterplan.json"
+    ],
+    "replace": [
+      "packages/agent-harness/src/planner.js",
+      "packages/cli/src/cli.js"
+    ],
+    "replaced": [
+      "ci/lint.js"
+    ],
+    "repo": [
+      "AGENTS.md",
+      "README.md",
+      "docs/architecture.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json",
+      "microtasks/example_manifest.json",
+      "packages/agent-harness/package.json",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/test/manifest.test.js",
+      "packages/cli/src/cli.js"
+    ],
+    "repo_indexer_service": [
+      "docs/openagent_masterplan.json"
+    ],
+    "reported": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "reporter": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "reporting": [
+      "CONTRIBUTING.md",
+      "SECURITY.md"
+    ],
+    "reports": [
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "repos": [
+      "packages/cli/package.json"
+    ],
+    "repositories": [
+      "README.md"
+    ],
+    "repository": [
+      "AGENTS.md",
+      "README.md",
+      "SECURITY.md",
+      "apps/desktop/README.md",
+      "docs/openagent_masterplan.json",
+      "package.json",
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "reproduction": [
+      "CONTRIBUTING.md",
+      "SECURITY.md"
+    ],
+    "request": [
+      "docs/architecture.md"
+    ],
+    "requesting": [
+      "docs/architecture.md"
+    ],
+    "require": [
+      "AGENTS.md",
+      "README.md",
+      "SECURITY.md",
+      "docs/openagent_masterplan.json",
+      "packages/adapters/src/adapter.js"
+    ],
+    "require_approval_for_all": [
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "require_approval_for_side_effects": [
+      "AGENTS.md",
+      "microtasks/example_manifest.json",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "requireapproval": [
+      "packages/agent-harness/src/planner.js"
+    ],
+    "required": [
+      "CONTRIBUTING.md",
+      "README.md",
+      "docs/architecture.md",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/manifest.js"
+    ],
+    "requires": [
+      "README.md",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/agent-harness/test/manifest.test.js",
+      "packages/cli/src/cli.js"
+    ],
+    "requires_approval": [
+      "docs/architecture.md",
+      "packages/agent-harness/src/planner.js",
+      "packages/cli/src/cli.js"
+    ],
+    "requiring": [
+      "docs/openagent_masterplan.json"
+    ],
+    "resilience": [
+      "docs/openagent_masterplan.json"
+    ],
+    "resolve": [
+      "packages/agent-harness/src/indexer.js",
+      "packages/cli/src/cli.js"
+    ],
+    "resource": [
+      "docs/openagent_masterplan.json"
+    ],
+    "respect": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "respectful": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "response": [
+      "packages/agent-harness/src/planner.js"
+    ],
+    "rest": [
+      "packages/cli/src/cli.js"
+    ],
+    "restriction": [
+      "LICENSE"
+    ],
+    "result": [
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "retention": [
+      "SECURITY.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "retrieval": [
+      "docs/architecture.md",
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "returns": [
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/index.js",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "review": [
+      "AGENTS.md",
+      "CONTRIBUTING.md",
+      "README.md",
+      "apps/desktop/README.md",
+      "docs/architecture.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "review_pipeline": [
+      "docs/openagent_masterplan.json"
+    ],
+    "reviewable": [
+      "AGENTS.md"
+    ],
+    "reviewed": [
+      "CODE_OF_CONDUCT.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "reviews": [
+      "docs/openagent_masterplan.json"
+    ],
+    "revisit": [
+      "docs/architecture.md"
+    ],
+    "rights": [
+      "LICENSE"
+    ],
+    "rmsync": [
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "roadmap": [
+      "README.md"
+    ],
+    "rolled": [
+      "docs/architecture.md"
+    ],
+    "root": [
+      "SECURITY.md",
+      "apps/desktop/README.md",
+      "ci/lint.js",
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "roots": [
+      "ci/lint.js"
+    ],
+    "route": [
+      "docs/openagent_masterplan.json"
+    ],
+    "rsa": [
+      "ci/lint.js"
+    ],
+    "rules": [
+      "AGENTS.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "run": [
+      "AGENTS.md",
+      "README.md",
+      "SECURITY.md",
+      "docs/architecture.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json",
+      "packages/cli/src/cli.js"
+    ],
+    "run_tests": [
+      "AGENTS.md",
+      "docs/openagent_masterplan.json",
+      "microtasks/example_manifest.json",
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "runbooks": [
+      "docs/openagent_masterplan.json"
+    ],
+    "runner": [
+      "docs/openagent_masterplan.json",
+      "infra/README.md"
+    ],
+    "runners": [
+      "docs/openagent_masterplan.json",
+      "infra/README.md"
+    ],
+    "runs": [
+      "docs/openagent_masterplan.json"
+    ],
+    "runtime": [
+      "AGENTS.md",
+      "CONTRIBUTING.md",
+      "README.md",
+      "SECURITY.md",
+      "ci/lint.js",
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json",
+      "packages/adapters/src/providers.js"
+    ],
+    "runtimes": [
+      "README.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "rust": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "safe": [
+      "packages/agent-harness/src/planner.js"
+    ],
+    "sandbox": [
+      "CONTRIBUTING.md",
+      "README.md",
+      "SECURITY.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json",
+      "infra/README.md"
+    ],
+    "sandbox_controls": [
+      "docs/openagent_masterplan.json"
+    ],
+    "sandbox_hardening": [
+      "docs/openagent_masterplan.json"
+    ],
+    "sandbox_policy_config": [
+      "docs/openagent_masterplan.json"
+    ],
+    "sandbox_runner": [
+      "docs/openagent_masterplan.json"
+    ],
+    "sandbox_tests": [
+      "docs/openagent_masterplan.json"
+    ],
+    "sandboxed": [
+      "README.md",
+      "docs/architecture.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json",
+      "packages/cli/src/cli.js"
+    ],
+    "sandboxed_exec": [
+      "docs/openagent_masterplan.json"
+    ],
+    "sandboxing": [
+      "docs/openagent_masterplan.json"
+    ],
+    "sanity": [
+      "ci/lint.js"
+    ],
+    "sast": [
+      "docs/openagent_masterplan.json"
+    ],
+    "scaffold": [
+      "README.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "scaffold_branch_policy": [
+      "docs/openagent_masterplan.json"
+    ],
+    "scaffold_commit_message": [
+      "docs/openagent_masterplan.json"
+    ],
+    "scaffold_complete": [
+      "docs/openagent_masterplan.json"
+    ],
+    "scaffold_repo": [
+      "docs/openagent_masterplan.json"
+    ],
+    "scaffolding": [
+      "docs/openagent_masterplan.json"
+    ],
+    "scan": [
+      "docs/openagent_masterplan.json"
+    ],
+    "scanning": [
+      "docs/openagent_masterplan.json"
+    ],
+    "scans": [
+      "SECURITY.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "schema": [
+      "AGENTS.md",
+      "docs/architecture.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json",
+      "microtasks/example_manifest.json",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/agent-harness/test/indexer.test.js",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "schema_id": [
+      "packages/agent-harness/src/index.js",
+      "packages/agent-harness/src/manifest.js"
+    ],
+    "schemas": [
+      "AGENTS.md",
+      "docs/architecture.md",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/manifest.js"
+    ],
+    "scope": [
+      "docs/openagent_masterplan.json"
+    ],
+    "scoped": [
+      "AGENTS.md",
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "score": [
+      "docs/openagent_masterplan.json"
+    ],
+    "scores": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "scripts": [
+      "package.json",
+      "packages/adapters/package.json",
+      "packages/agent-harness/package.json",
+      "packages/cli/package.json"
+    ],
+    "sdk": [
+      "README.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json",
+      "packages/adapters/package.json"
+    ],
+    "sdks": [
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "search": [
+      "README.md",
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "searchindex": [
+      "packages/agent-harness/src/index.js",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "sec": [
+      "packages/agent-harness/src/manifest.js"
+    ],
+    "secret": [
+      "ci/lint.js"
+    ],
+    "secret_patterns": [
+      "ci/lint.js"
+    ],
+    "secrets": [
+      "AGENTS.md",
+      "CONTRIBUTING.md",
+      "README.md",
+      "SECURITY.md",
+      "ci/lint.js"
+    ],
+    "secure": [
+      "docs/openagent_masterplan.json"
+    ],
+    "security": [
+      "AGENTS.md",
+      "CODE_OF_CONDUCT.md",
+      "CONTRIBUTING.md",
+      "README.md",
+      "SECURITY.md",
+      "docs/architecture.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json",
+      "microtasks/example_manifest.json",
+      "packages/adapters/src/adapter.js",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "security_and_compliance": [
+      "docs/openagent_masterplan.json"
+    ],
+    "security_audit_report": [
+      "docs/openagent_masterplan.json"
+    ],
+    "security_keys": [
+      "packages/agent-harness/src/manifest.js"
+    ],
+    "security_scan": [
+      "packages/agent-harness/src/planner.js"
+    ],
+    "security_scans": [
+      "docs/openagent_masterplan.json"
+    ],
+    "security_tests": [
+      "docs/openagent_masterplan.json"
+    ],
+    "see": [
+      "CONTRIBUTING.md",
+      "README.md",
+      "SECURITY.md",
+      "apps/desktop/README.md",
+      "infra/README.md"
+    ],
+    "seed": [
+      "docs/openagent_masterplan.json"
+    ],
+    "seeded": [
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "selection": [
+      "packages/adapters/src/providers.js"
+    ],
+    "sell": [
+      "LICENSE"
+    ],
+    "sensitive": [
+      "CONTRIBUTING.md"
+    ],
+    "sep": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "separated": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "server": [
+      "packages/adapters/src/providers.js",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "service": [
+      "docs/backlog.md"
+    ],
+    "services": [
+      "docs/architecture.md"
+    ],
+    "sessions": [
+      "docs/openagent_masterplan.json"
+    ],
+    "set": [
+      "packages/adapters/src/adapter.js",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "severity": [
+      "CONTRIBUTING.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "sex": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "sexual": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "sexualized": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "sha": [
+      "docs/architecture.md",
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "sha256": [
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "shall": [
+      "LICENSE"
+    ],
+    "shared": [
+      "docs/architecture.md"
+    ],
+    "shell": [
+      "README.md",
+      "apps/desktop/README.md",
+      "apps/desktop/package.json",
+      "apps/web/README.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "ship": [
+      "docs/openagent_masterplan.json"
+    ],
+    "shipped": [
+      "docs/backlog.md"
+    ],
+    "ships": [
+      "AGENTS.md"
+    ],
+    "short": [
+      "AGENTS.md",
+      "CONTRIBUTING.md",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "shot": [
+      "docs/openagent_masterplan.json"
+    ],
+    "should": [
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "show": [
+      "docs/openagent_masterplan.json"
+    ],
+    "side": [
+      "AGENTS.md",
+      "README.md",
+      "SECURITY.md",
+      "docs/architecture.md",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "side_effect_actions": [
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "sideeffects": [
+      "packages/agent-harness/src/manifest.js"
+    ],
+    "signed": [
+      "docs/openagent_masterplan.json"
+    ],
+    "signing": [
+      "docs/openagent_masterplan.json"
+    ],
+    "single": [
+      "CONTRIBUTING.md",
+      "README.md",
+      "docs/architecture.md"
+    ],
+    "size": [
+      "CODE_OF_CONDUCT.md",
+      "docs/architecture.md",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/manifest.js"
+    ],
+    "skeleton": [
+      "README.md",
+      "apps/desktop/README.md",
+      "apps/desktop/package.json",
+      "apps/web/README.md",
+      "apps/web/package.json",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "skeletons": [
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "skill": [
+      "docs/openagent_masterplan.json"
+    ],
+    "skill_registry": [
+      "docs/openagent_masterplan.json"
+    ],
+    "skill_registry_service": [
+      "docs/openagent_masterplan.json"
+    ],
+    "skills": [
+      "README.md",
+      "docs/architecture.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json",
+      "package.json"
+    ],
+    "skills_sdk": [
+      "docs/openagent_masterplan.json"
+    ],
+    "skip": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "skip_dirs": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "skipme": [
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "skipmetoken": [
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "skipped": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "skipped_binary": [
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "skipped_large": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "skippedbinary": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "skippedlarge": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "skipping": [
+      "docs/architecture.md"
+    ],
+    "skips": [
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "sla": [
+      "docs/openagent_masterplan.json"
+    ],
+    "slack": [
+      "docs/openagent_masterplan.json"
+    ],
+    "slice": [
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/cli/src/cli.js"
+    ],
+    "slugify": [
+      "packages/agent-harness/src/planner.js"
+    ],
+    "small": [
+      "CONTRIBUTING.md",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "smoke": [
+      "docs/openagent_masterplan.json"
+    ],
+    "smoke_tests": [
+      "docs/openagent_masterplan.json"
+    ],
+    "snap": [
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "snapshot": [
+      "AGENTS.md",
+      "README.md",
+      "docs/architecture.md",
+      "docs/backlog.md",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/agent-harness/test/indexer.test.js",
+      "packages/cli/src/cli.js"
+    ],
+    "snapshots": [
+      "docs/openagent_masterplan.json"
+    ],
+    "snippets": [
+      "docs/openagent_masterplan.json"
+    ],
+    "socio": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "software": [
+      "LICENSE"
+    ],
+    "some": [
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "sort": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "source": [
+      "README.md",
+      "docs/openagent_masterplan.json",
+      "package.json"
+    ],
+    "specific": [
+      "README.md"
+    ],
+    "split": [
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "squash": [
+      "CONTRIBUTING.md"
+    ],
+    "src": [
+      "AGENTS.md",
+      "README.md",
+      "ci/lint.js",
+      "microtasks/example_manifest.json",
+      "package.json",
+      "packages/adapters/package.json",
+      "packages/agent-harness/package.json",
+      "packages/agent-harness/test/indexer.test.js",
+      "packages/agent-harness/test/manifest.test.js",
+      "packages/cli/package.json",
+      "packages/cli/src/cli.js"
+    ],
+    "stable": [
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/mock.js"
+    ],
+    "staged": [
+      "AGENTS.md",
+      "README.md",
+      "apps/desktop/README.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/src/planner.js",
+      "packages/cli/src/cli.js"
+    ],
+    "staged_diff": [
+      ".gitignore",
+      "docs/openagent_masterplan.json"
+    ],
+    "stages": [
+      "docs/openagent_masterplan.json"
+    ],
+    "standard": [
+      "AGENTS.md",
+      "docs/architecture.md"
+    ],
+    "standards": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "start": [
+      "README.md"
+    ],
+    "start_instructions": [
+      "docs/openagent_masterplan.json"
+    ],
+    "startswith": [
+      "ci/lint.js",
+      "packages/agent-harness/src/indexer.js",
+      "packages/cli/src/cli.js"
+    ],
+    "startup": [
+      "docs/openagent_masterplan.json"
+    ],
+    "state": [
+      "SECURITY.md"
+    ],
+    "stated": [
+      "packages/agent-harness/schemas/microtask_schema_v1.json"
+    ],
+    "static": [
+      "docs/openagent_masterplan.json"
+    ],
+    "stats": [
+      "packages/adapters/src/adapter.js",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/agent-harness/test/indexer.test.js",
+      "packages/cli/src/cli.js"
+    ],
+    "statsync": [
+      "ci/lint.js",
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "status": [
+      "CODE_OF_CONDUCT.md",
+      "README.md",
+      "docs/backlog.md"
+    ],
+    "step": [
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/src/planner.js",
+      "packages/cli/src/cli.js"
+    ],
+    "steps": [
+      "AGENTS.md",
+      "CONTRIBUTING.md",
+      "SECURITY.md",
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/src/planner.js",
+      "packages/cli/src/cli.js"
+    ],
+    "stop_tokens": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "storage": [
+      "docs/openagent_masterplan.json",
+      "infra/README.md"
+    ],
+    "store": [
+      "docs/openagent_masterplan.json",
+      "packages/adapters/src/adapter.js"
+    ],
+    "strengths": [
+      "docs/openagent_masterplan.json"
+    ],
+    "strict": [
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/test/indexer.test.js",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "strictly": [
+      "docs/openagent_masterplan.json"
+    ],
+    "string": [
+      "ci/lint.js",
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/index.js",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/cli/src/cli.js"
+    ],
+    "stringify": [
+      "packages/cli/src/cli.js"
+    ],
+    "strong": [
+      "docs/openagent_masterplan.json"
+    ],
+    "structure": [
+      "docs/openagent_masterplan.json"
+    ],
+    "structured": [
+      "packages/adapters/src/adapter.js"
+    ],
+    "stub": [
+      "docs/openagent_masterplan.json"
+    ],
+    "stubs": [
+      "docs/backlog.md",
+      "packages/adapters/src/providers.js"
+    ],
+    "style": [
+      "AGENTS.md",
+      "CONTRIBUTING.md",
+      "ci/lint.js"
+    ],
+    "subclass": [
+      "packages/adapters/src/adapter.js"
+    ],
+    "subject": [
+      "LICENSE"
+    ],
+    "sublicense": [
+      "LICENSE"
+    ],
+    "submissions": [
+      "docs/openagent_masterplan.json"
+    ],
+    "substantial": [
+      "LICENSE"
+    ],
+    "sudo": [
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "suite": [
+      "README.md"
+    ],
+    "suites": [
+      "AGENTS.md",
+      "CONTRIBUTING.md"
+    ],
+    "summary": [
+      "docs/openagent_masterplan.json"
+    ],
+    "super": [
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/providers.js"
+    ],
+    "supply": [
+      "docs/architecture.md"
+    ],
+    "support": [
+      "README.md",
+      "docs/openagent_masterplan.json",
+      "package.json"
+    ],
+    "supported": [
+      "SECURITY.md"
+    ],
+    "surface": [
+      "AGENTS.md",
+      "apps/desktop/README.md"
+    ],
+    "surprise": [
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "sus": [
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "swap": [
+      "docs/architecture.md",
+      "packages/adapters/src/adapter.js",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "swappable": [
+      "README.md"
+    ],
+    "swapped": [
+      "docs/openagent_masterplan.json"
+    ],
+    "switch": [
+      "packages/cli/src/cli.js"
+    ],
+    "swot": [
+      "docs/openagent_masterplan.json"
+    ],
+    "swot_analysis": [
+      "docs/openagent_masterplan.json"
+    ],
+    "symlinks": [
+      "docs/architecture.md",
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "syntax": [
+      "ci/lint.js"
+    ],
+    "system": [
+      "README.md",
+      "docs/architecture.md",
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "tamper": [
+      "SECURITY.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "tar": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "target": [
+      "SECURITY.md",
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json",
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/cli/src/cli.js"
+    ],
+    "target_files": [
+      "microtasks/example_manifest.json",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "targeting": [
+      "apps/web/README.md"
+    ],
+    "targets": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "teams": [
+      "docs/openagent_masterplan.json"
+    ],
+    "telemetry": [
+      "SECURITY.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "tells": [
+      "AGENTS.md"
+    ],
+    "temp": [
+      "SECURITY.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "templates": [
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "test": [
+      "AGENTS.md",
+      "CONTRIBUTING.md",
+      "README.md",
+      "ci/lint.js",
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json",
+      "package.json",
+      "packages/adapters/package.json",
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/package.json",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/agent-harness/test/indexer.test.js",
+      "packages/agent-harness/test/manifest.test.js",
+      "packages/cli/package.json"
+    ],
+    "tested": [
+      "docs/openagent_masterplan.json"
+    ],
+    "testing": [
+      "CONTRIBUTING.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "testing_matrix": [
+      "docs/openagent_masterplan.json"
+    ],
+    "tests": [
+      "AGENTS.md",
+      "CONTRIBUTING.md",
+      "SECURITY.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json",
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/cli/src/cli.js"
+    ],
+    "text": [
+      "docs/architecture.md",
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "their": [
+      "README.md",
+      "SECURITY.md"
+    ],
+    "then": [
+      "apps/desktop/README.md",
+      "docs/openagent_masterplan.json",
+      "packages/adapters/src/index.js",
+      "packages/cli/src/cli.js"
+    ],
+    "thing": [
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "third": [
+      "docs/openagent_masterplan.json"
+    ],
+    "threat": [
+      "docs/openagent_masterplan.json"
+    ],
+    "threats": [
+      "docs/openagent_masterplan.json"
+    ],
+    "through": [
+      "README.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "throughput": [
+      "docs/openagent_masterplan.json"
+    ],
+    "throw": [
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/index.js",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/cli/src/cli.js"
+    ],
+    "throwing": [
+      "microtasks/example_manifest.json"
+    ],
+    "throws": [
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "thumbs": [
+      ".gitignore"
+    ],
+    "time": [
+      "SECURITY.md",
+      "docs/openagent_masterplan.json",
+      "packages/adapters/src/adapter.js"
+    ],
+    "timeline": [
+      "SECURITY.md"
+    ],
+    "timeout": [
+      "docs/architecture.md",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "timeout_seconds": [
+      "AGENTS.md",
+      "microtasks/example_manifest.json",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "timeouts": [
+      "docs/openagent_masterplan.json"
+    ],
+    "timestamp": [
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "title": [
+      "AGENTS.md",
+      "docs/architecture.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json",
+      "microtasks/example_manifest.json",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/agent-harness/test/manifest.test.js",
+      "packages/cli/src/cli.js"
+    ],
+    "tmpdir": [
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "today": [
+      "README.md"
+    ],
+    "toisostring": [
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "token": [
+      "README.md",
+      "docs/architecture.md",
+      "docs/backlog.md",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "token_count": [
+      "packages/agent-harness/src/indexer.js",
+      "packages/cli/src/cli.js"
+    ],
+    "token_index": [
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "token_pattern": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "tokenindex": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "tokenized": [
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "tokens": [
+      "CONTRIBUTING.md",
+      "docs/architecture.md",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/test/indexer.test.js",
+      "packages/cli/src/cli.js"
+    ],
+    "tolowercase": [
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "toml": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "too": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "tool": [
+      "README.md",
+      "SECURITY.md",
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "tooling": [
+      "docs/openagent_masterplan.json"
+    ],
+    "toolongprefix": [
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "tools": [
+      "packages/agent-harness/schemas/microtask_schema_v1.json"
+    ],
+    "top": [
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "top_level_keys": [
+      "packages/agent-harness/src/manifest.js"
+    ],
+    "tort": [
+      "LICENSE"
+    ],
+    "tostring": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "trace": [
+      "packages/adapters/src/mock.js"
+    ],
+    "tracker": [
+      "docs/openagent_masterplan.json"
+    ],
+    "triage_policy": [
+      "docs/openagent_masterplan.json"
+    ],
+    "trim": [
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "trolling": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "try": [
+      "ci/lint.js",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/test/indexer.test.js",
+      "packages/cli/src/cli.js"
+    ],
+    "tsx": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "ttf": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "type": [
+      "apps/desktop/package.json",
+      "apps/web/package.json",
+      "package.json",
+      "packages/adapters/package.json",
+      "packages/agent-harness/package.json",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/cli/package.json"
+    ],
+    "typedef": [
+      "packages/adapters/src/adapter.js"
+    ],
+    "types": [
+      "docs/architecture.md"
+    ],
+    "typescript": [
+      "README.md",
+      "apps/desktop/README.md",
+      "apps/web/README.md",
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "ui_components": [
+      "docs/openagent_masterplan.json"
+    ],
+    "ui_ux_quality_goals": [
+      "docs/openagent_masterplan.json"
+    ],
+    "unacceptable": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "unavailable": [
+      "packages/cli/src/cli.js"
+    ],
+    "unbalanced": [
+      "ci/lint.js"
+    ],
+    "unconfigured": [
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/providers.js"
+    ],
+    "under": [
+      "docs/openagent_masterplan.json"
+    ],
+    "unhandled": [
+      "microtasks/example_manifest.json"
+    ],
+    "unique": [
+      "packages/agent-harness/schemas/microtask_schema_v1.json"
+    ],
+    "uniqueitems": [
+      "packages/agent-harness/schemas/microtask_schema_v1.json"
+    ],
+    "unit": [
+      "CONTRIBUTING.md",
+      "docs/architecture.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/schemas/microtask_schema_v1.json"
+    ],
+    "unit_tests": [
+      "docs/openagent_masterplan.json"
+    ],
+    "unknown": [
+      "packages/adapters/src/index.js",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/test/manifest.test.js",
+      "packages/cli/src/cli.js"
+    ],
+    "unless": [
+      "CONTRIBUTING.md",
+      "SECURITY.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "unparseable": [
+      "packages/agent-harness/src/planner.js"
+    ],
+    "unreadable": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "unrestricted": [
+      "docs/architecture.md",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "unset": [
+      "docs/architecture.md",
+      "packages/adapters/src/adapter.js"
+    ],
+    "until": [
+      "apps/desktop/README.md",
+      "docs/openagent_masterplan.json",
+      "packages/cli/src/cli.js"
+    ],
+    "update": [
+      "CONTRIBUTING.md",
+      "docs/openagent_masterplan.json",
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "updated": [
+      "CONTRIBUTING.md"
+    ],
+    "upload": [
+      "docs/openagent_masterplan.json"
+    ],
+    "upstream": [
+      "SECURITY.md"
+    ],
+    "url": [
+      "docs/openagent_masterplan.json",
+      "package.json",
+      "packages/adapters/src/providers.js",
+      "packages/agent-harness/test/manifest.test.js",
+      "packages/cli/src/cli.js"
+    ],
+    "usability": [
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "usability_score_target": [
+      "docs/openagent_masterplan.json"
+    ],
+    "usage": [
+      "docs/architecture.md",
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/mock.js",
+      "packages/cli/src/cli.js"
+    ],
+    "usageerror": [
+      "packages/cli/src/cli.js"
+    ],
+    "use": [
+      "AGENTS.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "docs/openagent_masterplan.json",
+      "packages/adapters/src/adapter.js"
+    ],
+    "used": [
+      "README.md",
+      "packages/adapters/src/adapter.js"
+    ],
+    "user": [
+      "SECURITY.md",
+      "docs/openagent_masterplan.json",
+      "packages/adapters/src/adapter.js"
+    ],
+    "uses": [
+      "docs/architecture.md"
+    ],
+    "using": [
+      "README.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "usr": [
+      "ci/lint.js",
+      "packages/cli/src/cli.js"
+    ],
+    "utf8": [
+      "ci/lint.js",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/test/manifest.test.js",
+      "packages/cli/src/cli.js"
+    ],
+    "ux_fixes": [
+      "docs/openagent_masterplan.json"
+    ],
+    "valid": [
+      "ci/lint.js",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/test/manifest.test.js",
+      "packages/cli/src/cli.js"
+    ],
+    "validate": [
+      "AGENTS.md",
+      "README.md",
+      "docs/architecture.md",
+      "docs/backlog.md",
+      "package.json",
+      "packages/agent-harness/src/manifest.js",
+      "packages/cli/package.json",
+      "packages/cli/src/cli.js"
+    ],
+    "validated": [
+      "packages/agent-harness/src/planner.js"
+    ],
+    "validatemanifest": [
+      "packages/agent-harness/src/index.js",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "validates": [
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "validation": [
+      "AGENTS.md",
+      "README.md",
+      "microtasks/example_manifest.json",
+      "packages/agent-harness/package.json",
+      "packages/agent-harness/src/manifest.js"
+    ],
+    "validator": [
+      "AGENTS.md",
+      "docs/architecture.md",
+      "docs/backlog.md",
+      "packages/agent-harness/src/manifest.js"
+    ],
+    "value": [
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/cli/src/cli.js"
+    ],
+    "variables": [
+      "AGENTS.md",
+      "README.md"
+    ],
+    "variant": [
+      "docs/openagent_masterplan.json"
+    ],
+    "variety": [
+      "packages/adapters/src/mock.js"
+    ],
+    "vars": [
+      "docs/architecture.md"
+    ],
+    "verify": [
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "versangil": [
+      "docs/openagent_masterplan.json",
+      "package.json",
+      "packages/agent-harness/schemas/microtask_schema_v1.json"
+    ],
+    "version": [
+      "CODE_OF_CONDUCT.md",
+      "apps/desktop/package.json",
+      "apps/web/package.json",
+      "docs/openagent_masterplan.json",
+      "package.json",
+      "packages/adapters/package.json",
+      "packages/agent-harness/package.json",
+      "packages/cli/package.json"
+    ],
+    "versioned": [
+      "docs/openagent_masterplan.json"
+    ],
+    "versioning": [
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "versions": [
+      "SECURITY.md"
+    ],
+    "via": [
+      "README.md",
+      "apps/desktop/README.md",
+      "ci/lint.js",
+      "docs/openagent_masterplan.json",
+      "packages/cli/src/cli.js"
+    ],
+    "visible": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "vision": [
+      "README.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "vite": [
+      "README.md",
+      "apps/web/README.md",
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "void": [
+      "ci/lint.js"
+    ],
+    "vscode": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "vulnerabilities": [
+      "CONTRIBUTING.md",
+      "SECURITY.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "vulnerability": [
+      "SECURITY.md"
+    ],
+    "walk": [
+      "ci/lint.js",
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "walker": [
+      "docs/backlog.md"
+    ],
+    "walks": [
+      "docs/architecture.md",
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "warranties": [
+      "LICENSE"
+    ],
+    "warranty": [
+      "LICENSE"
+    ],
+    "wcag": [
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "weaknesses": [
+      "docs/openagent_masterplan.json"
+    ],
+    "web": [
+      "README.md",
+      "apps/web/README.md",
+      "apps/web/package.json",
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "web_deploy": [
+      "docs/openagent_masterplan.json"
+    ],
+    "webp": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "weeks": [
+      "docs/backlog.md"
+    ],
+    "well": [
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "what": [
+      "CODE_OF_CONDUCT.md",
+      "packages/agent-harness/schemas/microtask_schema_v1.json"
+    ],
+    "when": [
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json",
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/providers.js",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/test/manifest.test.js",
+      "packages/cli/src/cli.js"
+    ],
+    "whether": [
+      "LICENSE",
+      "packages/adapters/src/adapter.js"
+    ],
+    "whitelist": [
+      "SECURITY.md",
+      "packages/agent-harness/schemas/microtask_schema_v1.json"
+    ],
+    "whitelists": [
+      "docs/openagent_masterplan.json"
+    ],
+    "whitespace": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "whole": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "whom": [
+      "LICENSE"
+    ],
+    "will": [
+      "CODE_OF_CONDUCT.md",
+      "SECURITY.md"
+    ],
+    "windows": [
+      "docs/openagent_masterplan.json"
+    ],
+    "withfiletypes": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "withgit": [
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "within": [
+      "SECURITY.md"
+    ],
+    "without": [
+      "AGENTS.md",
+      "CODE_OF_CONDUCT.md",
+      "LICENSE",
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json",
+      "packages/adapters/src/adapter.js",
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "woff": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "woff2": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "work": [
+      "AGENTS.md",
+      "README.md",
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/schemas/microtask_schema_v1.json"
+    ],
+    "workflow": [
+      "CONTRIBUTING.md",
+      "docs/backlog.md"
+    ],
+    "workflows": [
+      "README.md",
+      "docs/openagent_masterplan.json"
+    ],
+    "working": [
+      "README.md"
+    ],
+    "workspace": [
+      "AGENTS.md",
+      "README.md",
+      "SECURITY.md",
+      "apps/desktop/README.md",
+      "docs/architecture.md",
+      "docs/backlog.md",
+      "docs/openagent_masterplan.json",
+      "microtasks/example_manifest.json",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/indexer.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/agent-harness/test/manifest.test.js",
+      "packages/cli/src/cli.js"
+    ],
+    "workspace_and_temp": [
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/manifest.js"
+    ],
+    "workspace_only": [
+      "AGENTS.md",
+      "microtasks/example_manifest.json",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "workspaces": [
+      "docs/architecture.md",
+      "package.json",
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "would": [
+      "ci/lint.js"
+    ],
+    "write": [
+      "AGENTS.md",
+      "microtasks/example_manifest.json",
+      "packages/adapters/src/mock.js",
+      "packages/agent-harness/schemas/microtask_schema_v1.json",
+      "packages/agent-harness/src/manifest.js",
+      "packages/agent-harness/src/planner.js",
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "writefilesync": [
+      "packages/agent-harness/test/indexer.test.js",
+      "packages/cli/src/cli.js"
+    ],
+    "writes": [
+      "packages/cli/src/cli.js"
+    ],
+    "written": [
+      "SECURITY.md"
+    ],
+    "wrong": [
+      "packages/agent-harness/test/manifest.test.js"
+    ],
+    "wrote": [
+      "packages/cli/src/cli.js"
+    ],
+    "www": [
+      "CODE_OF_CONDUCT.md"
+    ],
+    "x47": [
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "x4e": [
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "x50": [
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "x89": [
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "xxx": [
+      "AGENTS.md",
+      "CONTRIBUTING.md"
+    ],
+    "xyz": [
+      "packages/agent-harness/test/indexer.test.js"
+    ],
+    "yaml": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "yet": [
+      "infra/README.md"
+    ],
+    "yield": [
+      "ci/lint.js"
+    ],
+    "yml": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "you": [
+      "SECURITY.md",
+      "packages/agent-harness/src/planner.js"
+    ],
+    "zero": [
+      "AGENTS.md",
+      "CONTRIBUTING.md",
+      "README.md",
+      "ci/lint.js",
+      "docs/architecture.md",
+      "docs/openagent_masterplan.json",
+      "packages/agent-harness/src/manifest.js"
+    ],
+    "zip": [
+      "packages/agent-harness/src/indexer.js"
+    ],
+    "zzz_not_present": [
+      "packages/agent-harness/test/indexer.test.js"
+    ]
+  }
+}

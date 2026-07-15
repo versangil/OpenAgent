@@ -1,0 +1,18 @@
+{
+  "name": "@openagent/agent-harness",
+  "version": "0.1.0",
+  "description": "Microtask manifest validation, repo indexer, and planner for OpenAgent",
+  "license": "MIT",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./manifest": "./src/manifest.js",
+    "./indexer": "./src/indexer.js",
+    "./planner": "./src/planner.js"
+  },
+  "scripts": {
+    "test": "node --test test"
+  },
+  "engines": { "node": ">=18" }
+}

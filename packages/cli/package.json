@@ -1,0 +1,14 @@
+{
+  "name": "@openagent/cli",
+  "version": "0.1.0",
+  "description": "openagent-cli: validate manifests, index repos, plan microtasks",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "openagent-cli": "src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test test"
+  },
+  "engines": { "node": ">=18" }
+}

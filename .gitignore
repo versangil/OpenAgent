@@ -1,0 +1,15 @@
+node_modules/
+dist/
+build/
+out/
+*.log
+.env
+.env.*
+.openagent/
+index_snapshot.json
+plan.json
+staged_diff.patch
+pr_metadata.json
+coverage/
+.DS_Store
+Thumbs.db

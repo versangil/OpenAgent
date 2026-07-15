@@ -1,0 +1,8 @@
+{
+  "name": "@openagent/desktop",
+  "version": "0.0.0",
+  "private": true,
+  "description": "OpenAgent Electron desktop shell (skeleton - MT-010)",
+  "license": "MIT",
+  "type": "module"
+}

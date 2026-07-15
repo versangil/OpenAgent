@@ -1,0 +1,335 @@
+{
+  "project": "OpenAgent",
+  "variant": "Scaffold-to-Production",
+  "version": "1.0.0",
+  "summary": "OpenAgent is an open-source, cross-platform agentic AI IDE (desktop + web) with full MCP/Skills/Marketplace support and provider-agnostic adapters compatible with Codex and Claude ecosystems. This JSON is an execution-ready master prompt that guides scaffolding through production, CI/CD, QA, security hardening, and launch. It instructs agents and engineering teams to create a main branch, add the canonical repo, iterate via microtasks and CI/CD cycles, and continue until the product is production-ready, bug-free, and threat-free, with a final SWOT analysis.",
+  "repository": {
+    "canonical_repo": "https://github.com/versangil/OpenAgent",
+    "initial_branch": "main",
+    "scaffold_branch_policy": "create main branch, push initial scaffold, protect main with branch rules (require PR, CI passing)",
+    "scaffold_commit_message": "chore(scaffold): initial OpenAgent scaffold"
+  },
+  "goals": [
+    "Deliver a production-ready cross-platform desktop (Electron) and web (React) IDE with feature parity",
+    "Implement agentic workflows: repo indexing, multi-file planning, staged diffs, one-shot and multi-shot agents",
+    "Support open provider adapters (OpenAI/Codex, Anthropic/Claude, Qwen, local runtimes)",
+    "Deliver MCP/Skills SDK, connector ecosystem, and an open marketplace with signed manifests",
+    "Ensure secure sandboxed execution, auditability, and enterprise policy controls",
+    "Ship CI/CD pipelines, automated tests, and release packaging for Linux/macOS/Windows",
+    "Achieve UI/UX quality goals: zero critical bugs, usability-tested flows, and threat-free UX"
+  ],
+  "scope": {
+    "platforms": ["linux", "mac", "windows", "web"],
+    "frontends": ["Electron + React + TypeScript (desktop)", "React + Vite + TypeScript (web)"],
+    "backends": ["agent_harness (Node/Python)", "mcp_gateway", "skill_registry", "marketplace_service", "auth_service"],
+    "models_and_adapters": ["openai_codex_adapter", "anthropic_claude_adapter", "qwen_adapter", "local_ollama_adapter", "llamacpp_adapter"],
+    "security": ["sandboxed_exec", "permissioned_actions", "audit_logs", "enterprise_policy_engine"]
+  },
+  "start_instructions": [
+    {
+      "step": "scaffold_repo",
+      "description": "Create repository scaffold and initial project layout, then push to canonical repo and create protected main branch.",
+      "actions": [
+        "Clone canonical repo URL locally or fork if needed",
+        "Create initial project directories: /apps/desktop, /apps/web, /packages/agent-harness, /packages/adapters, /infra, /docs, /ci",
+        "Add LICENSE (MIT or chosen OSS license), CODE_OF_CONDUCT.md, CONTRIBUTING.md, and SECURITY.md",
+        "Add initial README.md with project vision and contribution guide",
+        "Commit scaffold and push to remote main branch",
+        "Enable branch protection: require PR reviews, require CI passing, require signed commits optional"
+      ],
+      "outputs": ["main branch with scaffold", "initial CI pipeline stub", "project metadata files"]
+    },
+    {
+      "step": "initialize_issue_board",
+      "description": "Create project board and initial milestone structure for scaffold-to-production lifecycle.",
+      "actions": [
+        "Create milestones: Discovery, MVP Scaffold, Core Features, Provider Adapters, MCP & Skills, Marketplace, Security Audit, Polish & Launch",
+        "Seed microtasks from masterplan into issue tracker",
+        "Assign owners and estimates"
+      ],
+      "outputs": ["project board", "seeded issues and milestones"]
+    }
+  ],
+  "lifecycle_policy": {
+    "iteration_model": "CI/CD driven microtask cycle",
+    "cycle_steps": [
+      "pick microtask from backlog",
+      "create feature branch from main",
+      "implement code + unit tests + docs",
+      "open PR with checklist (tests, lint, security scan, AGENTS.md update if applicable)",
+      "CI runs (unit, integration with mocked adapters, sandbox security tests)",
+      "peer review and security review",
+      "merge to main when CI and reviews pass",
+      "release candidate build and smoke tests",
+      "promote to production release when acceptance criteria met"
+    ],
+    "automation": {
+      "ci": "GitHub Actions / GitLab CI templates included; use containerized runners with mocked adapters for tests",
+      "cd": "Automated packaging for Electron (Linux/macOS/Windows) and web deploy to static host; optional enterprise installers",
+      "artifact_storage": "S3-compatible or GitHub Releases for binaries and artifacts"
+    }
+  },
+  "milestones": [
+    {
+      "id": 1,
+      "name": "Discovery & Architecture",
+      "duration_weeks": 2,
+      "deliverables": ["architecture_diagrams", "API_and_adapter_contracts", "microtask_backlog"]
+    },
+    {
+      "id": 2,
+      "name": "Scaffold & MVP CLI",
+      "duration_weeks": 4,
+      "deliverables": ["openagent-cli scaffold", "microtask_manifest_schema", "AGENTS.md examples"]
+    },
+    {
+      "id": 3,
+      "name": "Desktop Shell + Repo Indexer",
+      "duration_weeks": 6,
+      "deliverables": ["electron_app_skeleton", "repo_indexer_service", "local_lsp_integration"]
+    },
+    {
+      "id": 4,
+      "name": "Provider Adapter Framework & Local Bridge",
+      "duration_weeks": 6,
+      "deliverables": ["adapter_sdk", "openai_adapter", "anthropic_adapter", "qwen_adapter", "local_adapter", "mock_adapters_for_CI"]
+    },
+    {
+      "id": 5,
+      "name": "MCP Connectors & Skills SDK",
+      "duration_weeks": 6,
+      "deliverables": ["mcp_gateway", "connector_sdk_github", "connector_sdk_slack", "skills_sdk", "skill_registry"]
+    },
+    {
+      "id": 6,
+      "name": "Marketplace & Security Audit",
+      "duration_weeks": 8,
+      "deliverables": ["marketplace_service", "review_pipeline", "security_audit_report", "sandbox_hardening"]
+    },
+    {
+      "id": 7,
+      "name": "Polish, QA, and Launch",
+      "duration_weeks": 4,
+      "deliverables": ["full_docs", "release_builds", "community_launch_plan", "post-launch_support_plan"]
+    }
+  ],
+  "microtasks": [
+    {
+      "id": "MT-001",
+      "title": "Microtask manifest schema",
+      "description": "Design JSON schema for microtasks including inputs, allowed actions, timeouts, approval policy, mcp_calls, and security constraints.",
+      "outputs": ["microtask_schema_v1.json", "example_manifest.json"],
+      "estimate_days": 3
+    },
+    {
+      "id": "MT-002",
+      "title": "OpenAgent CLI scaffold",
+      "description": "Implement CLI that validates manifests, snapshots repo index, plans steps, runs sandboxed execution, produces staged diffs and PR metadata.",
+      "outputs": ["openagent-cli", "cli_docs.md"],
+      "estimate_days": 10
+    },
+    {
+      "id": "MT-003",
+      "title": "Repo indexer",
+      "description": "Index repository files, produce AST snippets, tokenized search index, and file-level metadata for planner context.",
+      "outputs": ["index_snapshot.json", "indexer_service"],
+      "estimate_days": 7
+    },
+    {
+      "id": "MT-004",
+      "title": "Planner and staged diff generator",
+      "description": "Planner that converts goals into ordered edits and produces a staged diff patch that can be reviewed and applied.",
+      "outputs": ["plan.json", "staged_diff.patch"],
+      "estimate_days": 8
+    },
+    {
+      "id": "MT-005",
+      "title": "Sandboxed executor",
+      "description": "Containerized runner with strict FS and network policies, resource caps, and action whitelists.",
+      "outputs": ["sandbox_runner", "sandbox_policy_config"],
+      "estimate_days": 10
+    },
+    {
+      "id": "MT-006",
+      "title": "Provider adapter SDK and example adapters",
+      "description": "Adapter contract and example adapters for OpenAI, Anthropic, Qwen, and a local adapter for Ollama/LlamaCPP.",
+      "outputs": ["adapter_sdk", "openai_adapter", "anthropic_adapter", "qwen_adapter", "local_adapter"],
+      "estimate_days": 12
+    },
+    {
+      "id": "MT-007",
+      "title": "MCP gateway and connector SDKs",
+      "description": "Gateway to route tool calls and connector SDKs for GitHub, Slack, CI, and Figma.",
+      "outputs": ["mcp_gateway", "connector_sdk_github", "connector_sdk_slack"],
+      "estimate_days": 12
+    },
+    {
+      "id": "MT-008",
+      "title": "Skills SDK and registry",
+      "description": "Runtime for skills, manifest signing, versioning, and discovery.",
+      "outputs": ["skills_sdk", "skill_registry_service"],
+      "estimate_days": 10
+    },
+    {
+      "id": "MT-009",
+      "title": "Marketplace registry and review automation",
+      "description": "Open registry, automated tests for skill submissions, sandboxed review runner, and human review queue.",
+      "outputs": ["marketplace_service", "review_pipeline"],
+      "estimate_days": 14
+    },
+    {
+      "id": "MT-010",
+      "title": "Desktop UI skeleton and workspace UX",
+      "description": "Electron app with workspace explorer, editor integration, agent control panel, and staged diff UI.",
+      "outputs": ["electron_app_skeleton", "ui_components"],
+      "estimate_days": 14
+    },
+    {
+      "id": "MT-011",
+      "title": "PR automation and CI templates",
+      "description": "Automated PR generation, changelog creation, test artifacts upload, and CI templates with mocked adapters.",
+      "outputs": ["pr_generator", "ci_templates"],
+      "estimate_days": 7
+    },
+    {
+      "id": "MT-012",
+      "title": "Docs, AGENTS.md examples, and onboarding",
+      "description": "Developer docs, AGENTS.md library of manifests, runbooks, and community contribution guide.",
+      "outputs": ["AGENTS.md", "developer_runbook.md"],
+      "estimate_days": 8
+    },
+    {
+      "id": "MT-013",
+      "title": "Accessibility and UX polish",
+      "description": "Accessibility audit, keyboard navigation, color contrast, and usability testing sessions with fixes.",
+      "outputs": ["accessibility_report", "ux_fixes"],
+      "estimate_days": 7
+    },
+    {
+      "id": "MT-014",
+      "title": "Security hardening and audit fixes",
+      "description": "Run security scans, fix findings, perform penetration tests on sandbox and marketplace flows.",
+      "outputs": ["security_audit_report", "remediation_commits"],
+      "estimate_days": 10
+    },
+    {
+      "id": "MT-015",
+      "title": "Release packaging and installers",
+      "description": "Create Electron installers for Linux/macOS/Windows, web deploy pipeline, and release notes automation.",
+      "outputs": ["installers", "release_notes", "packaging_scripts"],
+      "estimate_days": 7
+    }
+  ],
+  "ci_cd": {
+    "ci_pipeline": {
+      "stages": ["lint", "unit_tests", "integration_tests", "security_scans", "sandbox_tests", "build"],
+      "mocking_policy": "Use mocked provider adapters in CI; no external API calls unless explicitly allowed and recorded",
+      "artifact_policy": "Store test artifacts, staged diffs, and logs in artifact store; attach to PRs"
+    },
+    "cd_pipeline": {
+      "stages": ["release_candidate_build", "smoke_tests", "signing", "publish"],
+      "desktop_packaging": "Electron builder for cross-platform installers",
+      "web_deploy": "Static hosting with CDN and versioned releases"
+    },
+    "quality_gates": [
+      "All tests passing",
+      "No critical or high security findings",
+      "UX acceptance checklist completed",
+      "Accessibility checks passed"
+    ]
+  },
+  "qa_and_acceptance": {
+    "ui_ux_quality_goals": {
+      "critical_bug_target": 0,
+      "high_bug_target": 0,
+      "medium_bug_target": "<= 5 pre-launch",
+      "usability_score_target": ">= 85 (SUS or equivalent)",
+      "accessibility_target": "WCAG 2.1 AA compliance"
+    },
+    "testing_matrix": {
+      "unit_tests": "module-level coverage target >= 80%",
+      "integration_tests": "end-to-end flows for agent harness, adapters, and marketplace",
+      "e2e_ui_tests": "desktop and web flows using Playwright or equivalent",
+      "security_tests": "SAST, DAST, dependency scanning, sandbox egress tests",
+      "performance_tests": "startup time, indexing throughput, memory caps under load"
+    },
+    "bug_management": {
+      "triage_policy": "Critical and high severity must be fixed before merge to main for release branches",
+      "regression_policy": "All regressions must have test coverage added"
+    }
+  },
+  "security_and_compliance": {
+    "principles": ["least_privilege", "explicit_user_approval_for_side_effects", "no_secrets_in_artifacts", "opt_in_telemetry"],
+    "sandbox_controls": {
+      "network": "deny-by-default; allowlist endpoints for provider adapters and marketplace",
+      "filesystem": "workspace-only + temp; no host root access",
+      "process_limits": "CPU/memory/time quotas",
+      "action_whitelist": ["git", "npm/pip install", "run_tests", "format"]
+    },
+    "audit_and_logging": "Immutable logs for agent decisions, tool calls, and user approvals; tamper-evident storage",
+    "privacy": "Telemetry opt-in only; PII handling policy; data retention and deletion procedures documented in SECURITY.md"
+  },
+  "release_and_post_launch": {
+    "release_checks": [
+      "All acceptance criteria met",
+      "Security audit passed and remediation completed",
+      "UX and accessibility acceptance passed",
+      "Packaging and signing completed"
+    ],
+    "post_launch_support": [
+      "Hotfix policy and SLA for critical bugs",
+      "Community support channels and issue templates",
+      "Regular security patch cadence"
+    ]
+  },
+  "swot_analysis": {
+    "strengths": [
+      "Open-source, provider-agnostic architecture enabling BYO models",
+      "Cross-platform desktop + web parity",
+      "Modular adapter and skills SDK for extensibility",
+      "Strong security posture with sandboxing and audit logs"
+    ],
+    "weaknesses": [
+      "High engineering complexity across adapters, sandboxing, and marketplace",
+      "Initial resource cost for secure sandbox and CI infrastructure",
+      "Dependency on third-party provider APIs for some features"
+    ],
+    "opportunities": [
+      "Growing demand for agentic developer tooling and automation",
+      "Community contributions to adapters and skills marketplace",
+      "Enterprise adoption for secure, auditable agent workflows"
+    ],
+    "threats": [
+      "Rapid provider API changes requiring adapter maintenance",
+      "Security vulnerabilities in sandbox or third-party connectors",
+      "Competition from established commercial products with deep pockets"
+    ],
+    "mitigations": {
+      "for_weaknesses": [
+        "Phase work into scaffold-to-MVP to reduce initial scope",
+        "Use mocked adapters in CI to reduce external dependency during development"
+      ],
+      "for_threats": [
+        "Maintain adapter abstraction layer to isolate provider changes",
+        "Continuous security testing and third-party audits",
+        "Active community governance and contribution guidelines"
+      ]
+    }
+  },
+  "acceptance_criteria": {
+    "scaffold_complete": ["main branch created and protected", "initial scaffold pushed", "issue board seeded"],
+    "mvp": [
+      "One-shot agent can run a manifest, produce staged diff, run tests, and generate PR metadata",
+      "Electron and web skeletons open workspace and show staged diffs",
+      "Provider adapters can be swapped without planner changes",
+      "Sandbox prevents network/FS egress in CI tests"
+    ],
+    "production_ready": [
+      "Marketplace accepts signed skill manifests and runs automated review",
+      "Security audit passed and remediation completed",
+      "UI/UX acceptance: no critical bugs, usability score >= target, WCAG 2.1 AA compliance",
+      "Release artifacts built, signed, and published"
+    ]
+  },
+  "notes": "Follow the lifecycle policy strictly: scaffold -> microtask -> CI/CD -> review -> merge -> release. Continue iterating microtasks until all milestones and acceptance criteria are met. Use the SWOT findings to prioritize security and adapter resilience work. This JSON is intended to be consumed by engineering teams or autonomous agents to orchestrate the full build-to-production lifecycle for OpenAgent."
+}

@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/versangil/OpenAgent/schemas/microtask_schema_v1.json",
+  "title": "OpenAgent Microtask Manifest v1",
+  "description": "Declarative description of a unit of agent work: goal, inputs, allowed actions, timeout, approval policy, MCP calls, and security constraints. MT-001.",
+  "type": "object",
+  "required": ["schema", "id", "title", "goal", "allowed_actions", "timeout_seconds", "approval_policy", "security"],
+  "additionalProperties": false,
+  "properties": {
+    "schema": {
+      "const": "microtask/v1",
+      "description": "Manifest schema identifier."
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Z]{2,8}-[A-Za-z0-9-]{1,64}$",
+      "description": "Unique microtask id, e.g. MT-001 or MT-EX-001."
+    },
+    "title": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 200
+    },
+    "goal": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 4000,
+      "description": "What the agent must accomplish, stated as an outcome."
+    },
+    "inputs": {
+      "type": "object",
+      "description": "Free-form key/value inputs (workspace path, target files, parameters).",
+      "additionalProperties": true
+    },
+    "allowed_actions": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "enum": ["read", "write", "run_tests", "format", "git", "install_deps", "mcp_call"]
+      },
+      "description": "Action whitelist. The executor rejects anything not listed."
+    },
+    "timeout_seconds": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 86400
+    },
+    "approval_policy": {
+      "enum": ["auto", "require_approval_for_side_effects", "require_approval_for_all"],
+      "description": "auto is only valid when security.network is deny and no git/install actions are allowed."
+    },
+    "mcp_calls": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["server", "tool"],
+        "additionalProperties": false,
+        "properties": {
+          "server": { "type": "string", "minLength": 1 },
+          "tool": { "type": "string", "minLength": 1 },
+          "purpose": { "type": "string" }
+        }
+      },
+      "description": "MCP tools the microtask may invoke. Must be empty when security.network is deny."
+    },
+    "security": {
+      "type": "object",
+      "required": ["network", "filesystem"],
+      "additionalProperties": false,
+      "properties": {
+        "network": {
+          "enum": ["deny", "allowlist"],
+          "description": "Unrestricted network is intentionally not expressible."
+        },
+        "network_allowlist": {
+          "type": "array",
+          "items": { "type": "string", "format": "hostname" },
+          "description": "Required and only permitted when network is allowlist."
+        },
+        "filesystem": {
+          "enum": ["workspace_only", "workspace_and_temp"]
+        },
+        "max_memory_mb": { "type": "integer", "minimum": 16, "maximum": 65536 },
+        "max_cpu_percent": { "type": "integer", "minimum": 1, "maximum": 100 }
+      }
+    }
+  }
+}
