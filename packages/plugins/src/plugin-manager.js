@@ -4,7 +4,7 @@
  */
 
 import { HookSystem } from './hooks.js';
-import { readFile, readdir, stat } from 'node:fs/promises';
+import { readdir, stat } from 'node:fs/promises';
 import { join, extname } from 'node:path';
 
 export class PluginError extends Error {

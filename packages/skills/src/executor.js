@@ -114,8 +114,7 @@ export class SkillExecutor {
         ));
       }, this.timeout);
 
-      Promise.resolve()
-        .then(() => handler(inputs, context))
+      handler(inputs, context)
         .then(res => {
           clearTimeout(timer);
           resolve(res);
