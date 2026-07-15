@@ -1,5 +1,6 @@
 {
   "schema": "skill/v1",
+  "version": "1.0.0",
   "id": "SKILL-VERIFY-001",
   "title": "Verification Skill",
   "goal": "Generate tests, analyze coverage, enforce quality gates, and validate code correctness.",

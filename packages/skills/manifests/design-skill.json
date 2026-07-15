@@ -1,5 +1,6 @@
 {
   "schema": "skill/v1",
+  "version": "1.0.0",
   "id": "SKILL-DESIGN-001",
   "title": "Design Skill",
   "goal": "Analyze architecture, recognize design patterns, generate documentation, and suggest improvements.",

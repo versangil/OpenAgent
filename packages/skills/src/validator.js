@@ -96,6 +96,16 @@ export function validateSkillInputs(inputs, schema) {
         ));
       }
     }
+
+    // Validate enum values
+    if (rule.enum && inputs[key] !== undefined) {
+      if (!rule.enum.includes(inputs[key])) {
+        errors.push(new SkillValidationError(
+          `Input "${key}" value "${inputs[key]}" is not in allowed enum: ${rule.enum.join(', ')}`,
+          key
+        ));
+      }
+    }
   }
 
   return { valid: errors.length === 0, errors };

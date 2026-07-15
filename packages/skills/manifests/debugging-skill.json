@@ -1,5 +1,6 @@
 {
   "schema": "skill/v1",
+  "version": "1.0.0",
   "id": "SKILL-DEBUG-001",
   "title": "Debugging Skill",
   "goal": "Analyze errors, interpret stack traces, and suggest fixes for code issues across the codebase.",

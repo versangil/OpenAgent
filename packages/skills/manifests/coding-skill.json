@@ -1,5 +1,6 @@
 {
   "schema": "skill/v1",
+  "version": "1.0.0",
   "id": "SKILL-CODE-001",
   "title": "Coding Skill",
   "goal": "Generate, refactor, and optimize code following best practices with provider-agnostic AI adapters.",

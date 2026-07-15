@@ -70,6 +70,17 @@ export class MCPGateway {
       return server;
     }
 
+    // Validate transport type if specified
+    if (server.config.transport) {
+      const validTransports = ['stdio', 'tcp', 'http', 'sse'];
+      if (!validTransports.includes(server.config.transport)) {
+        throw new MCPConnectionError(
+          `Invalid transport "${server.config.transport}". Valid: ${validTransports.join(', ')}`,
+          name
+        );
+      }
+    }
+
     try {
       // In a real implementation, this would establish a connection
       // via stdio, TCP, or HTTP transport to the MCP server process

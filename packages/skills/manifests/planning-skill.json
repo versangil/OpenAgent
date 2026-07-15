@@ -1,5 +1,6 @@
 {
   "schema": "skill/v1",
+  "version": "1.0.0",
   "id": "SKILL-PLAN-001",
   "title": "Planning Skill",
   "goal": "Decompose complex tasks into actionable steps, generate roadmaps, and set goals for agentic workflows.",
