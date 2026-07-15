@@ -112,7 +112,7 @@ test('cross-field: approval_policy auto requires deny + no side effects', () => 
 });
 
 test('parseManifest reports invalid JSON', () => {
-  const { valid: ok, errors } = parseManifest('{ nope');
+  const { valid: ok, errors } = parseManifest('! invalid json');
   assert.equal(ok, false);
   assert.match(errors[0], /invalid JSON/);
 });
