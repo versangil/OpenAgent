@@ -1,0 +1,11 @@
+{
+  "name": "openagent-mcp-gateway",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "MCP Gateway for OpenAgent - connect to external MCP servers, discover tools, and manage sessions",
+  "scripts": {
+    "test": "node --test test"
+  },
+  "keywords": ["openagent", "mcp", "gateway", "ai"],
+  "license": "MIT"
+}

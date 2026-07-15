@@ -1,0 +1,20 @@
+{
+  "schema": "skill/v1",
+  "id": "SKILL-DEBUG-001",
+  "title": "Debugging Skill",
+  "goal": "Analyze errors, interpret stack traces, and suggest fixes for code issues across the codebase.",
+  "description": "Analyzes runtime errors, test failures, and logical bugs to identify root causes and propose fixes.",
+  "inputs": {
+    "error": { "type": "string", "required": true, "description": "Error message, stack trace, or failure description" },
+    "code_context": { "type": "string", "required": false, "description": "Snippet of relevant code" },
+    "expected_behavior": { "type": "string", "required": false, "description": "What should happen instead" }
+  },
+  "outputs": {
+    "root_cause": { "type": "string", "description": "Identified root cause" },
+    "fix_suggestions": { "type": "array", "description": "Actionable fix steps" },
+    "confidence": { "type": "string", "description": "Confidence level: high/medium/low" }
+  },
+  "allowed_actions": ["read", "write"],
+  "timeout_seconds": 120,
+  "security": { "network": "deny", "filesystem": "workspace_only" }
+}

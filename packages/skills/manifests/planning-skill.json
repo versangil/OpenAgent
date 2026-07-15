@@ -1,0 +1,20 @@
+{
+  "schema": "skill/v1",
+  "id": "SKILL-PLAN-001",
+  "title": "Planning Skill",
+  "goal": "Decompose complex tasks into actionable steps, generate roadmaps, and set goals for agentic workflows.",
+  "description": "Breaks down high-level objectives into structured plans with dependencies, milestones, and resource allocation.",
+  "inputs": {
+    "objective": { "type": "string", "required": true, "description": "The high-level goal or task to plan" },
+    "context": { "type": "string", "required": false, "description": "Additional context or constraints" },
+    "depth": { "type": "string", "required": false, "description": "Planning depth: 'high-level', 'detailed', or 'granular'" }
+  },
+  "outputs": {
+    "plan": { "type": "array", "description": "Ordered list of steps with dependencies" },
+    "milestones": { "type": "array", "description": "Key milestones and deliverables" },
+    "estimated_effort": { "type": "string", "description": "Estimated effort per phase" }
+  },
+  "allowed_actions": ["read", "write"],
+  "timeout_seconds": 120,
+  "security": { "network": "deny", "filesystem": "workspace_only" }
+}

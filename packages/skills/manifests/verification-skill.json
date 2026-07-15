@@ -1,0 +1,20 @@
+{
+  "schema": "skill/v1",
+  "id": "SKILL-VERIFY-001",
+  "title": "Verification Skill",
+  "goal": "Generate tests, analyze coverage, enforce quality gates, and validate code correctness.",
+  "description": "Creates unit/integration tests, measures coverage, and runs quality checks against project standards.",
+  "inputs": {
+    "code_path": { "type": "string", "required": true, "description": "Path to code to verify" },
+    "test_framework": { "type": "string", "required": false, "description": "Test framework to use (node:test, jest, etc.)" },
+    "coverage_target": { "type": "number", "required": false, "description": "Minimum coverage percentage" }
+  },
+  "outputs": {
+    "tests": { "type": "array", "description": "Generated test files" },
+    "coverage": { "type": "number", "description": "Coverage percentage achieved" },
+    "quality_report": { "type": "object", "description": "Quality metrics and violations" }
+  },
+  "allowed_actions": ["read", "write", "run_tests"],
+  "timeout_seconds": 300,
+  "security": { "network": "deny", "filesystem": "workspace_only" }
+}

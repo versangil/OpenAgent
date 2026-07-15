@@ -1,0 +1,20 @@
+{
+  "schema": "skill/v1",
+  "id": "SKILL-CODE-001",
+  "title": "Coding Skill",
+  "goal": "Generate, refactor, and optimize code following best practices with provider-agnostic AI adapters.",
+  "description": "Generates code based on specifications, applies refactoring patterns, and ensures code quality standards.",
+  "inputs": {
+    "task": { "type": "string", "required": true, "description": "The coding task description" },
+    "language": { "type": "string", "required": false, "description": "Programming language" },
+    "context": { "type": "string", "required": false, "description": "Additional code context" },
+    "pattern": { "type": "string", "required": false, "description": "Design pattern or style to follow" }
+  },
+  "outputs": {
+    "code": { "type": "string", "description": "Generated or refactored code" },
+    "explanations": { "type": "string", "description": "Explanation of changes" }
+  },
+  "allowed_actions": ["read", "write", "run_tests"],
+  "timeout_seconds": 300,
+  "security": { "network": "deny", "filesystem": "workspace_only" }
+}

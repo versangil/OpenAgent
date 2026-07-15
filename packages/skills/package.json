@@ -1,0 +1,11 @@
+{
+  "name": "openagent-skills",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Skills SDK for OpenAgent - extensible skill plugin system with manifests and sandboxed execution",
+  "scripts": {
+    "test": "node --test test"
+  },
+  "keywords": ["openagent", "skills", "plugins", "ai"],
+  "license": "MIT"
+}

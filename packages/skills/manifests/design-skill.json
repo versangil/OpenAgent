@@ -1,0 +1,19 @@
+{
+  "schema": "skill/v1",
+  "id": "SKILL-DESIGN-001",
+  "title": "Design Skill",
+  "goal": "Analyze architecture, recognize design patterns, generate documentation, and suggest improvements.",
+  "description": "Evaluates system architecture, identifies patterns and anti-patterns, and produces design documentation and recommendations.",
+  "inputs": {
+    "codebase_path": { "type": "string", "required": true, "description": "Path to codebase or module to analyze" },
+    "focus": { "type": "string", "required": false, "description": "Design aspect to focus on: 'architecture', 'patterns', 'documentation'" }
+  },
+  "outputs": {
+    "architecture_overview": { "type": "string", "description": "High-level architecture description" },
+    "patterns_found": { "type": "array", "description": "List of design patterns identified" },
+    "recommendations": { "type": "array", "description": "Design improvement suggestions" }
+  },
+  "allowed_actions": ["read", "write"],
+  "timeout_seconds": 180,
+  "security": { "network": "deny", "filesystem": "workspace_only" }
+}

@@ -9,8 +9,16 @@
     "packages/*",
     "apps/*"
   ],
+  "dependencies": {
+    "openagent-skills": "workspace:*",
+    "openagent-mcp-gateway": "workspace:*",
+    "openagent-plugins": "workspace:*"
+  },
   "scripts": {
-    "test": "node --test packages/agent-harness/test packages/adapters/test packages/cli/test",
+    "test": "node --test packages/agent-harness/test/**/*.test.js packages/adapters/test/**/*.test.js packages/cli/test/**/*.test.js packages/skills/test/**/*.test.js packages/mcp-gateway/test/**/*.test.js packages/plugins/test/**/*.test.js",
+    "test:skills": "node --test packages/skills/test/**/*.test.js",
+    "test:mcp": "node --test packages/mcp-gateway/test/**/*.test.js",
+    "test:plugins": "node --test packages/plugins/test/**/*.test.js",
     "lint": "node ci/lint.js",
     "index": "node packages/cli/src/cli.js index .",
     "validate": "node packages/cli/src/cli.js validate microtasks/example_manifest.json"

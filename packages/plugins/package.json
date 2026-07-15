@@ -1,0 +1,11 @@
+{
+  "name": "openagent-plugins",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Plugin and Hook System for OpenAgent - extend IDE functionality via plugins and event-driven hooks",
+  "scripts": {
+    "test": "node --test test"
+  },
+  "keywords": ["openagent", "plugins", "hooks", "ai"],
+  "license": "MIT"
+}
